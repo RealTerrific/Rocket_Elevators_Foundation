@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  startdate: 2022-04-04 11:20:06
+  enddate: 2022-04-04 11:20:06
+  result: MyString
+  report: MyString
+  status: MyString
+
+two:
+  startdate: 2022-04-04 11:20:06
+  enddate: 2022-04-04 11:20:06
+  result: MyString
+  report: MyString
+  status: MyString
