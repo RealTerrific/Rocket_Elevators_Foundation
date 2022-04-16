@@ -15,13 +15,22 @@ class InterventionsController < ApplicationController
           report: params[:report],
           employee_id: params[:employee]
         )
+        json_payload = {
+              status: 2,
+              priority: 1, 
+              "email": @intervention.author.email,
+              "description": 
+              "An intervention has been requested by " + @intervention.author.first_name + " from the customer " + @intervention.customer.company_name + " at building address number " + @intervention.building.address_id.to_s + ", battery id number " + @intervention.battery.id.to_s  + ", column id number " + @intervention.column.id.to_s + ", and elevator id number " + @intervention.elevator.id.to_s + ". The employee assigned to the task is " + @intervention.employee.first_name + ". Thanks!",
+              "type": "Incident",
+              "subject": @intervention.report,
+          }.to_json
         
     freshdesk_domain = 'codeboxx7532'
     freshdesk_api_path = 'api/v2/tickets'
     api_key = ENV["FRESHDESK_API"]
 
-    site = RestClient::Resource.new(freshdesk_api_url, api_key)
     freshdesk_api_url  = "https://#{freshdesk_domain}.freshdesk.com/#{freshdesk_api_path}"
+    site = RestClient::Resource.new(freshdesk_api_url, api_key)
 
 
     begin
@@ -34,7 +43,6 @@ class InterventionsController < ApplicationController
     end
 
     redirect_back(fallback_location: root_path)
-    # redirect_to('/')
     puts "======================"
     end
 

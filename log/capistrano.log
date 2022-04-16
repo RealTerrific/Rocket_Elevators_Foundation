@@ -1,0 +1,1197 @@
+# Logfile created on 2022-04-08 17:22:56 -0400 by logger.rb/v1.4.2
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-04-08 17:22:56 -0400 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [1519ff01] Running [ -d $HOME/.rbenv/versions/2.7.5 ] as ubuntu@35.183.131.50
+ DEBUG [1519ff01] Command: [ -d $HOME/.rbenv/versions/2.7.5 ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-04-08 17:23:22 -0400 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [f5da3c5a] Running [ -d $HOME/.rbenv/versions/2.7.5 ] as ubuntu@35.183.131.50
+ DEBUG [f5da3c5a] Command: [ -d $HOME/.rbenv/versions/2.7.5 ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-04-08 17:25:30 -0400 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [6c31f871] Running [ -d $HOME/.rbenv/versions/2.7.5 ] as ubuntu@35.183.131.50
+ DEBUG [6c31f871] Command: [ -d $HOME/.rbenv/versions/2.7.5 ]
+ DEBUG [6c31f871] Finished in 5.527 seconds with exit status 0 (successful).
+  INFO [f905efd0] Running /usr/bin/env mkdir -p /tmp as ubuntu@35.183.131.50
+ DEBUG [f905efd0] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env mkdir -p /tmp )
+  INFO [f905efd0] Finished in 0.135 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-0ca7f06ccb93ff6906fd.sh 0.0%
+  INFO Uploading /tmp/git-ssh-0ca7f06ccb93ff6906fd.sh 100.0%
+  INFO [5d19f564] Running /usr/bin/env chmod 700 /tmp/git-ssh-0ca7f06ccb93ff6906fd.sh as ubuntu@35.183.131.50
+ DEBUG [5d19f564] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env chmod 700 /tmp/git-ssh-0ca7f06ccb93ff6906fd.sh )
+  INFO [5d19f564] Finished in 0.139 seconds with exit status 0 (successful).
+  INFO [b68b51e7] Running /usr/bin/env git ls-remote https://github.com/RealTerrific/Rocket_Elevators_Foundation HEAD as ubuntu@35.183.131.50
+ DEBUG [b68b51e7] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-0ca7f06ccb93ff6906fd.sh" ; /usr/bin/env git ls-remote https://github.com/RealTerrific/Rocket_Elevators_Foundation HEAD )
+ DEBUG [b68b51e7] 	remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+ DEBUG [b68b51e7] 	fatal: Authentication failed for 'https://github.com/RealTerrific/Rocket_Elevators_Foundation/'
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-04-08 17:27:16 -0400 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [6378e301] Running [ -d $HOME/.rbenv/versions/2.7.5 ] as ubuntu@35.183.131.50
+ DEBUG [6378e301] Command: [ -d $HOME/.rbenv/versions/2.7.5 ]
+ DEBUG [6378e301] Finished in 5.522 seconds with exit status 0 (successful).
+  INFO [b1bb3784] Running /usr/bin/env mkdir -p /tmp as ubuntu@35.183.131.50
+ DEBUG [b1bb3784] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env mkdir -p /tmp )
+  INFO [b1bb3784] Finished in 0.146 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-950d128c2126d9e5ebf5.sh 0.0%
+  INFO Uploading /tmp/git-ssh-950d128c2126d9e5ebf5.sh 100.0%
+  INFO [73d25dfd] Running /usr/bin/env chmod 700 /tmp/git-ssh-950d128c2126d9e5ebf5.sh as ubuntu@35.183.131.50
+ DEBUG [73d25dfd] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env chmod 700 /tmp/git-ssh-950d128c2126d9e5ebf5.sh )
+  INFO [73d25dfd] Finished in 0.152 seconds with exit status 0 (successful).
+  INFO [9270bb65] Running /usr/bin/env git ls-remote https://github.com/RealTerrific/Rocket_Elevators_Foundation HEAD as ubuntu@35.183.131.50
+ DEBUG [9270bb65] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-950d128c2126d9e5ebf5.sh" ; /usr/bin/env git ls-remote https://github.com/RealTerrific/Rocket_Elevators_Foundation HEAD )
+ DEBUG [9270bb65] 	3958d226979dab17d15e8267ae6e5567135701e4	HEAD
+  INFO [9270bb65] Finished in 0.314 seconds with exit status 0 (successful).
+  INFO [03947b26] Running /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/shared /home/ubuntu/apps/DigbyLaret/releases as ubuntu@35.183.131.50
+ DEBUG [03947b26] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/shared /home/ubuntu/apps/DigbyLaret/releases )
+  INFO [03947b26] Finished in 0.149 seconds with exit status 0 (successful).
+  INFO [45919371] Running /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/shared/tmp/pids /home/ubuntu/apps/DigbyLaret/shared/tmp/sockets /home/ubuntu/apps/DigbyLaret/shared/log /home/ubuntu/apps/DigbyLaret/shared/public/assets as ubuntu@35.183.131.50
+ DEBUG [45919371] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/shared/tmp/pids /home/ubuntu/apps/DigbyLaret/shared/tmp/sockets /home/ubuntu/apps/DigbyLaret/shared/log /home/ubuntu/apps/DigbyLaret/shared/public/assets )
+  INFO [45919371] Finished in 0.192 seconds with exit status 0 (successful).
+  INFO [aa534408] Running /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/shared/config as ubuntu@35.183.131.50
+ DEBUG [aa534408] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/shared/config )
+  INFO [aa534408] Finished in 0.153 seconds with exit status 0 (successful).
+ DEBUG [af38ee97] Running [ -f /home/ubuntu/apps/DigbyLaret/shared/config/database.yml ] as ubuntu@35.183.131.50
+ DEBUG [af38ee97] Command: [ -f /home/ubuntu/apps/DigbyLaret/shared/config/database.yml ]
+ DEBUG [af38ee97] Finished in 0.193 seconds with exit status 1 (failed).
+ ERROR linked file /home/ubuntu/apps/DigbyLaret/shared/config/database.yml does not exist on 35.183.131.50
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-04-08 17:37:55 -0400 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [f0e4b7fc] Running [ -d $HOME/.rbenv/versions/2.7.5 ] as ubuntu@35.183.131.50
+ DEBUG [f0e4b7fc] Command: [ -d $HOME/.rbenv/versions/2.7.5 ]
+ DEBUG [f0e4b7fc] Finished in 5.319 seconds with exit status 0 (successful).
+  INFO [6675445b] Running /usr/bin/env mkdir -p /tmp as ubuntu@35.183.131.50
+ DEBUG [6675445b] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env mkdir -p /tmp )
+  INFO [6675445b] Finished in 0.148 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-a6bf639513aa20413968.sh 0.0%
+  INFO Uploading /tmp/git-ssh-a6bf639513aa20413968.sh 100.0%
+  INFO [ff4afcd4] Running /usr/bin/env chmod 700 /tmp/git-ssh-a6bf639513aa20413968.sh as ubuntu@35.183.131.50
+ DEBUG [ff4afcd4] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env chmod 700 /tmp/git-ssh-a6bf639513aa20413968.sh )
+  INFO [ff4afcd4] Finished in 0.157 seconds with exit status 0 (successful).
+  INFO [9795db50] Running /usr/bin/env git ls-remote https://github.com/RealTerrific/Rocket_Elevators_Foundation HEAD as ubuntu@35.183.131.50
+ DEBUG [9795db50] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-a6bf639513aa20413968.sh" ; /usr/bin/env git ls-remote https://github.com/RealTerrific/Rocket_Elevators_Foundation HEAD )
+ DEBUG [9795db50] 	3958d226979dab17d15e8267ae6e5567135701e4	HEAD
+  INFO [9795db50] Finished in 0.311 seconds with exit status 0 (successful).
+  INFO [21d7df1f] Running /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/shared /home/ubuntu/apps/DigbyLaret/releases as ubuntu@35.183.131.50
+ DEBUG [21d7df1f] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/shared /home/ubuntu/apps/DigbyLaret/releases )
+  INFO [21d7df1f] Finished in 0.151 seconds with exit status 0 (successful).
+  INFO [ac52f1af] Running /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/shared/tmp/pids /home/ubuntu/apps/DigbyLaret/shared/tmp/sockets /home/ubuntu/apps/DigbyLaret/shared/log /home/ubuntu/apps/DigbyLaret/shared/public/assets as ubuntu@35.183.131.50
+ DEBUG [ac52f1af] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/shared/tmp/pids /home/ubuntu/apps/DigbyLaret/shared/tmp/sockets /home/ubuntu/apps/DigbyLaret/shared/log /home/ubuntu/apps/DigbyLaret/shared/public/assets )
+  INFO [ac52f1af] Finished in 0.195 seconds with exit status 0 (successful).
+  INFO [b2e4b975] Running /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/shared/config as ubuntu@35.183.131.50
+ DEBUG [b2e4b975] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/shared/config )
+  INFO [b2e4b975] Finished in 0.152 seconds with exit status 0 (successful).
+ DEBUG [b34cc5a8] Running [ -f /home/ubuntu/apps/DigbyLaret/shared/config/database.yml ] as ubuntu@35.183.131.50
+ DEBUG [b34cc5a8] Command: [ -f /home/ubuntu/apps/DigbyLaret/shared/config/database.yml ]
+ DEBUG [b34cc5a8] Finished in 0.192 seconds with exit status 0 (successful).
+ DEBUG [98583ab1] Running [ -f /home/ubuntu/apps/DigbyLaret/shared/puma.rb ] as ubuntu@35.183.131.50
+ DEBUG [98583ab1] Command: [ -f /home/ubuntu/apps/DigbyLaret/shared/puma.rb ]
+ DEBUG [98583ab1] Finished in 0.150 seconds with exit status 1 (failed).
+  WARN puma.rb NOT FOUND!
+ DEBUG Uploading /home/ubuntu/apps/DigbyLaret/shared/puma.rb 0.0%
+  INFO Uploading /home/ubuntu/apps/DigbyLaret/shared/puma.rb 100.0%
+  INFO puma.rb generated
+ DEBUG [e36b61cb] Running [ -f /home/ubuntu/apps/DigbyLaret/current/REVISION ] as ubuntu@35.183.131.50
+ DEBUG [e36b61cb] Command: [ -f /home/ubuntu/apps/DigbyLaret/current/REVISION ]
+ DEBUG [e36b61cb] Finished in 0.150 seconds with exit status 1 (failed).
+ DEBUG [ddfa18c3] Running [ -f /home/ubuntu/apps/DigbyLaret/repo/HEAD ] as ubuntu@35.183.131.50
+ DEBUG [ddfa18c3] Command: [ -f /home/ubuntu/apps/DigbyLaret/repo/HEAD ]
+ DEBUG [ddfa18c3] Finished in 0.188 seconds with exit status 1 (failed).
+ DEBUG [354c7a25] Running if test ! -d /home/ubuntu/apps/DigbyLaret; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret'" 1>&2; false; fi as ubuntu@35.183.131.50
+ DEBUG [354c7a25] Command: if test ! -d /home/ubuntu/apps/DigbyLaret; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret'" 1>&2; false; fi
+ DEBUG [354c7a25] Finished in 0.152 seconds with exit status 0 (successful).
+  INFO [a97fba62] Running /usr/bin/env git clone --mirror https://github.com/RealTerrific/Rocket_Elevators_Foundation /home/ubuntu/apps/DigbyLaret/repo as ubuntu@35.183.131.50
+ DEBUG [a97fba62] Command: cd /home/ubuntu/apps/DigbyLaret && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-a6bf639513aa20413968.sh" ; /usr/bin/env git clone --mirror https://github.com/RealTerrific/Rocket_Elevators_Foundation /home/ubuntu/apps/DigbyLaret/repo )
+ DEBUG [a97fba62] 	Cloning into bare repository '/home/ubuntu/apps/DigbyLaret/repo'...
+  INFO [a97fba62] Finished in 8.584 seconds with exit status 0 (successful).
+ DEBUG [fca0ea73] Running if test ! -d /home/ubuntu/apps/DigbyLaret/repo; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/repo'" 1>&2; false; fi as ubuntu@35.183.131.50
+ DEBUG [fca0ea73] Command: if test ! -d /home/ubuntu/apps/DigbyLaret/repo; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/repo'" 1>&2; false; fi
+ DEBUG [fca0ea73] Finished in 0.149 seconds with exit status 0 (successful).
+  INFO [4aa443dc] Running /usr/bin/env git remote set-url origin https://github.com/RealTerrific/Rocket_Elevators_Foundation as ubuntu@35.183.131.50
+ DEBUG [4aa443dc] Command: cd /home/ubuntu/apps/DigbyLaret/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-a6bf639513aa20413968.sh" ; /usr/bin/env git remote set-url origin https://github.com/RealTerrific/Rocket_Elevators_Foundation )
+  INFO [4aa443dc] Finished in 0.196 seconds with exit status 0 (successful).
+  INFO [86936d5d] Running /usr/bin/env git remote update --prune as ubuntu@35.183.131.50
+ DEBUG [86936d5d] Command: cd /home/ubuntu/apps/DigbyLaret/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-a6bf639513aa20413968.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [86936d5d] 	Fetching origin
+  INFO [86936d5d] Finished in 0.287 seconds with exit status 0 (successful).
+ DEBUG [d2b7fecb] Running if test ! -d /home/ubuntu/apps/DigbyLaret/repo; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/repo'" 1>&2; false; fi as ubuntu@35.183.131.50
+ DEBUG [d2b7fecb] Command: if test ! -d /home/ubuntu/apps/DigbyLaret/repo; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/repo'" 1>&2; false; fi
+ DEBUG [d2b7fecb] Finished in 0.191 seconds with exit status 0 (successful).
+  INFO [a7c29536] Running /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/releases/20220408213803 as ubuntu@35.183.131.50
+ DEBUG [a7c29536] Command: cd /home/ubuntu/apps/DigbyLaret/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-a6bf639513aa20413968.sh" ; /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/releases/20220408213803 )
+  INFO [a7c29536] Finished in 0.154 seconds with exit status 0 (successful).
+  INFO [4eabed32] Running /usr/bin/env git archive main | /usr/bin/env tar -x -f - -C /home/ubuntu/apps/DigbyLaret/releases/20220408213803 as ubuntu@35.183.131.50
+ DEBUG [4eabed32] Command: cd /home/ubuntu/apps/DigbyLaret/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-a6bf639513aa20413968.sh" ; /usr/bin/env git archive main | /usr/bin/env tar -x -f - -C /home/ubuntu/apps/DigbyLaret/releases/20220408213803 )
+  INFO [4eabed32] Finished in 1.068 seconds with exit status 0 (successful).
+ DEBUG [a2b2c936] Running if test ! -d /home/ubuntu/apps/DigbyLaret/repo; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/repo'" 1>&2; false; fi as ubuntu@35.183.131.50
+ DEBUG [a2b2c936] Command: if test ! -d /home/ubuntu/apps/DigbyLaret/repo; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/repo'" 1>&2; false; fi
+ DEBUG [a2b2c936] Finished in 0.150 seconds with exit status 0 (successful).
+ DEBUG [de78f8af] Running /usr/bin/env git rev-list --max-count=1 main as ubuntu@35.183.131.50
+ DEBUG [de78f8af] Command: cd /home/ubuntu/apps/DigbyLaret/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-a6bf639513aa20413968.sh" ; /usr/bin/env git rev-list --max-count=1 main )
+ DEBUG [de78f8af] 	3958d226979dab17d15e8267ae6e5567135701e4
+ DEBUG [de78f8af] Finished in 0.198 seconds with exit status 0 (successful).
+ DEBUG [af6d7fe8] Running if test ! -d /home/ubuntu/apps/DigbyLaret/releases/20220408213803; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/releases/20220408213803'" 1>&2; false; fi as ubuntu@35.183.131.50
+ DEBUG [af6d7fe8] Command: if test ! -d /home/ubuntu/apps/DigbyLaret/releases/20220408213803; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/releases/20220408213803'" 1>&2; false; fi
+ DEBUG [af6d7fe8] Finished in 0.150 seconds with exit status 0 (successful).
+  INFO [fc0934d1] Running /usr/bin/env echo "3958d226979dab17d15e8267ae6e5567135701e4" > REVISION as ubuntu@35.183.131.50
+ DEBUG [fc0934d1] Command: cd /home/ubuntu/apps/DigbyLaret/releases/20220408213803 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env echo "3958d226979dab17d15e8267ae6e5567135701e4" > REVISION )
+  INFO [fc0934d1] Finished in 0.197 seconds with exit status 0 (successful).
+  INFO [21af7960] Running /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/releases/20220408213803/config as ubuntu@35.183.131.50
+ DEBUG [21af7960] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/releases/20220408213803/config )
+  INFO [21af7960] Finished in 0.158 seconds with exit status 0 (successful).
+ DEBUG [440d16e8] Running [ -L /home/ubuntu/apps/DigbyLaret/releases/20220408213803/config/database.yml ] as ubuntu@35.183.131.50
+ DEBUG [440d16e8] Command: [ -L /home/ubuntu/apps/DigbyLaret/releases/20220408213803/config/database.yml ]
+ DEBUG [440d16e8] Finished in 0.190 seconds with exit status 1 (failed).
+ DEBUG [e084c24a] Running [ -f /home/ubuntu/apps/DigbyLaret/releases/20220408213803/config/database.yml ] as ubuntu@35.183.131.50
+ DEBUG [e084c24a] Command: [ -f /home/ubuntu/apps/DigbyLaret/releases/20220408213803/config/database.yml ]
+ DEBUG [e084c24a] Finished in 0.151 seconds with exit status 0 (successful).
+  INFO [aac4ae89] Running /usr/bin/env rm /home/ubuntu/apps/DigbyLaret/releases/20220408213803/config/database.yml as ubuntu@35.183.131.50
+ DEBUG [aac4ae89] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env rm /home/ubuntu/apps/DigbyLaret/releases/20220408213803/config/database.yml )
+  INFO [aac4ae89] Finished in 0.193 seconds with exit status 0 (successful).
+  INFO [3ca319cd] Running /usr/bin/env ln -s /home/ubuntu/apps/DigbyLaret/shared/config/database.yml /home/ubuntu/apps/DigbyLaret/releases/20220408213803/config/database.yml as ubuntu@35.183.131.50
+ DEBUG [3ca319cd] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env ln -s /home/ubuntu/apps/DigbyLaret/shared/config/database.yml /home/ubuntu/apps/DigbyLaret/releases/20220408213803/config/database.yml )
+  INFO [3ca319cd] Finished in 0.154 seconds with exit status 0 (successful).
+  INFO [16b24dea] Running /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/releases/20220408213803/tmp /home/ubuntu/apps/DigbyLaret/releases/20220408213803 /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public as ubuntu@35.183.131.50
+ DEBUG [16b24dea] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/releases/20220408213803/tmp /home/ubuntu/apps/DigbyLaret/releases/20220408213803 /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public )
+  INFO [16b24dea] Finished in 0.244 seconds with exit status 0 (successful).
+ DEBUG [63e9f013] Running [ -L /home/ubuntu/apps/DigbyLaret/releases/20220408213803/tmp/pids ] as ubuntu@35.183.131.50
+ DEBUG [63e9f013] Command: [ -L /home/ubuntu/apps/DigbyLaret/releases/20220408213803/tmp/pids ]
+ DEBUG [63e9f013] Finished in 0.153 seconds with exit status 1 (failed).
+ DEBUG [66beea92] Running [ -d /home/ubuntu/apps/DigbyLaret/releases/20220408213803/tmp/pids ] as ubuntu@35.183.131.50
+ DEBUG [66beea92] Command: [ -d /home/ubuntu/apps/DigbyLaret/releases/20220408213803/tmp/pids ]
+ DEBUG [66beea92] Finished in 0.194 seconds with exit status 1 (failed).
+  INFO [1341c26a] Running /usr/bin/env ln -s /home/ubuntu/apps/DigbyLaret/shared/tmp/pids /home/ubuntu/apps/DigbyLaret/releases/20220408213803/tmp/pids as ubuntu@35.183.131.50
+ DEBUG [1341c26a] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env ln -s /home/ubuntu/apps/DigbyLaret/shared/tmp/pids /home/ubuntu/apps/DigbyLaret/releases/20220408213803/tmp/pids )
+  INFO [1341c26a] Finished in 0.153 seconds with exit status 0 (successful).
+ DEBUG [2b21cb76] Running [ -L /home/ubuntu/apps/DigbyLaret/releases/20220408213803/tmp/sockets ] as ubuntu@35.183.131.50
+ DEBUG [2b21cb76] Command: [ -L /home/ubuntu/apps/DigbyLaret/releases/20220408213803/tmp/sockets ]
+ DEBUG [2b21cb76] Finished in 0.194 seconds with exit status 1 (failed).
+ DEBUG [537d9347] Running [ -d /home/ubuntu/apps/DigbyLaret/releases/20220408213803/tmp/sockets ] as ubuntu@35.183.131.50
+ DEBUG [537d9347] Command: [ -d /home/ubuntu/apps/DigbyLaret/releases/20220408213803/tmp/sockets ]
+ DEBUG [537d9347] Finished in 0.153 seconds with exit status 1 (failed).
+  INFO [769bb3bf] Running /usr/bin/env ln -s /home/ubuntu/apps/DigbyLaret/shared/tmp/sockets /home/ubuntu/apps/DigbyLaret/releases/20220408213803/tmp/sockets as ubuntu@35.183.131.50
+ DEBUG [769bb3bf] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env ln -s /home/ubuntu/apps/DigbyLaret/shared/tmp/sockets /home/ubuntu/apps/DigbyLaret/releases/20220408213803/tmp/sockets )
+  INFO [769bb3bf] Finished in 0.199 seconds with exit status 0 (successful).
+ DEBUG [0b993af2] Running [ -L /home/ubuntu/apps/DigbyLaret/releases/20220408213803/log ] as ubuntu@35.183.131.50
+ DEBUG [0b993af2] Command: [ -L /home/ubuntu/apps/DigbyLaret/releases/20220408213803/log ]
+ DEBUG [0b993af2] Finished in 0.153 seconds with exit status 1 (failed).
+ DEBUG [8ce5ce77] Running [ -d /home/ubuntu/apps/DigbyLaret/releases/20220408213803/log ] as ubuntu@35.183.131.50
+ DEBUG [8ce5ce77] Command: [ -d /home/ubuntu/apps/DigbyLaret/releases/20220408213803/log ]
+ DEBUG [8ce5ce77] Finished in 0.194 seconds with exit status 0 (successful).
+  INFO [e4e5e9bd] Running /usr/bin/env rm -rf /home/ubuntu/apps/DigbyLaret/releases/20220408213803/log as ubuntu@35.183.131.50
+ DEBUG [e4e5e9bd] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env rm -rf /home/ubuntu/apps/DigbyLaret/releases/20220408213803/log )
+  INFO [e4e5e9bd] Finished in 0.163 seconds with exit status 0 (successful).
+  INFO [fe34d840] Running /usr/bin/env ln -s /home/ubuntu/apps/DigbyLaret/shared/log /home/ubuntu/apps/DigbyLaret/releases/20220408213803/log as ubuntu@35.183.131.50
+ DEBUG [fe34d840] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env ln -s /home/ubuntu/apps/DigbyLaret/shared/log /home/ubuntu/apps/DigbyLaret/releases/20220408213803/log )
+  INFO [fe34d840] Finished in 0.196 seconds with exit status 0 (successful).
+ DEBUG [69d98d92] Running [ -L /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets ] as ubuntu@35.183.131.50
+ DEBUG [69d98d92] Command: [ -L /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets ]
+ DEBUG [69d98d92] Finished in 0.151 seconds with exit status 1 (failed).
+ DEBUG [b21cb5b0] Running [ -d /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets ] as ubuntu@35.183.131.50
+ DEBUG [b21cb5b0] Command: [ -d /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets ]
+ DEBUG [b21cb5b0] Finished in 0.193 seconds with exit status 1 (failed).
+  INFO [d33b6b1e] Running /usr/bin/env ln -s /home/ubuntu/apps/DigbyLaret/shared/public/assets /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets as ubuntu@35.183.131.50
+ DEBUG [d33b6b1e] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env ln -s /home/ubuntu/apps/DigbyLaret/shared/public/assets /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets )
+  INFO [d33b6b1e] Finished in 0.153 seconds with exit status 0 (successful).
+ DEBUG [7f7e507b] Running if test ! -d /home/ubuntu/apps/DigbyLaret/releases/20220408213803; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/releases/20220408213803'" 1>&2; false; fi as ubuntu@35.183.131.50
+ DEBUG [7f7e507b] Command: if test ! -d /home/ubuntu/apps/DigbyLaret/releases/20220408213803; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/releases/20220408213803'" 1>&2; false; fi
+ DEBUG [7f7e507b] Finished in 0.193 seconds with exit status 0 (successful).
+  INFO [1d49526f] Running RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle config --local deployment true as ubuntu@35.183.131.50
+ DEBUG [1d49526f] Command: cd /home/ubuntu/apps/DigbyLaret/releases/20220408213803 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle config --local deployment true )
+  INFO [1d49526f] Finished in 0.371 seconds with exit status 0 (successful).
+  INFO [37bd0549] Running RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle config --local path /home/ubuntu/apps/DigbyLaret/shared/bundle as ubuntu@35.183.131.50
+ DEBUG [37bd0549] Command: cd /home/ubuntu/apps/DigbyLaret/releases/20220408213803 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle config --local path /home/ubuntu/apps/DigbyLaret/shared/bundle )
+  INFO [37bd0549] Finished in 0.405 seconds with exit status 0 (successful).
+  INFO [42aff148] Running RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle config --local without production as ubuntu@35.183.131.50
+ DEBUG [42aff148] Command: cd /home/ubuntu/apps/DigbyLaret/releases/20220408213803 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle config --local without production )
+  INFO [42aff148] Finished in 0.363 seconds with exit status 0 (successful).
+ DEBUG [4296b36c] Running if test ! -d /home/ubuntu/apps/DigbyLaret/releases/20220408213803; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/releases/20220408213803'" 1>&2; false; fi as ubuntu@35.183.131.50
+ DEBUG [4296b36c] Command: if test ! -d /home/ubuntu/apps/DigbyLaret/releases/20220408213803; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/releases/20220408213803'" 1>&2; false; fi
+ DEBUG [4296b36c] Finished in 0.194 seconds with exit status 0 (successful).
+ DEBUG [16abe9f7] Running RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle check as ubuntu@35.183.131.50
+ DEBUG [16abe9f7] Command: cd /home/ubuntu/apps/DigbyLaret/releases/20220408213803 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle check )
+ DEBUG [16abe9f7] 	https://github.com/seuros/capistrano-puma.git is not yet checked out. Run
+`bundle install` first.
+ DEBUG [16abe9f7] Finished in 1.415 seconds with exit status 11 (failed).
+  INFO [74bfb297] Running RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle install --jobs 4 --quiet as ubuntu@35.183.131.50
+ DEBUG [74bfb297] Command: cd /home/ubuntu/apps/DigbyLaret/releases/20220408213803 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle install --jobs 4 --quiet )
+  INFO [74bfb297] Finished in 253.070 seconds with exit status 0 (successful).
+ DEBUG [8e91e476] Running if test ! -d /home/ubuntu/apps/DigbyLaret/releases/20220408213803; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/releases/20220408213803'" 1>&2; false; fi as ubuntu@35.183.131.50
+ DEBUG [8e91e476] Command: if test ! -d /home/ubuntu/apps/DigbyLaret/releases/20220408213803; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/releases/20220408213803'" 1>&2; false; fi
+ DEBUG [8e91e476] Finished in 0.151 seconds with exit status 0 (successful).
+  INFO [c4be2d6c] Running RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle exec rake assets:precompile as ubuntu@35.183.131.50
+ DEBUG [c4be2d6c] Command: cd /home/ubuntu/apps/DigbyLaret/releases/20220408213803 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" RAILS_ENV="development" RAILS_GROUPS="" ; RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle exec rake assets:precompile )
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:44.283180 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/quote-0f47fed77ce5a5c80932700b00cc8c3b40352382cc84f6c1d83e07982334de43.js
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:44.283728 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/quote-0f47fed77ce5a5c80932700b00cc8c3b40352382cc84f6c1d83e07982334de43.js.gz
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:44.291130 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/intervention-72e01f51915c163f196d3ef0f3bcece9989460675f9205463ebbf2ed0a5144ce.js
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:44.291368 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/intervention-72e01f51915c163f196d3ef0f3bcece9989460675f9205463ebbf2ed0a5144ce.js.gz
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:45.886564 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/active_admin-2a5055de336876265c6bfc05f7e31737bdce34d871eac13ffc3ec2768946cb75.css
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:45.886844 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/active_admin-2a5055de336876265c6bfc05f7e31737bdce34d871eac13ffc3ec2768946cb75.css.gz
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:46.414420 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/active_admin/print-de0da8bcf43d3532a1fb58d660106cb5f0f164d1438a58c372dc6bbc5c5f1781.css
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:46.414610 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/active_admin/print-de0da8bcf43d3532a1fb58d660106cb5f0f164d1438a58c372dc6bbc5c5f1781.css.gz
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:46.811544 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/active_admin-b87aeb5e5f57de2dab28330971fe4465e5e4028ff45e46c4d9d6fdf9e87d13bd.js
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:46.811728 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/active_admin-b87aeb5e5f57de2dab28330971fe4465e5e4028ff45e46c4d9d6fdf9e87d13bd.js.gz
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:46.819193 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/myfile-1e03f1941a276741c0cde43a0c564af7c6c725d82f7764b739a9988dfbac5e00.mp3
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:46.824653 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/font-icons-c834c60ba0ab8b6ea25860362c219fa1d649d87f6f24c5268b2c875d8e3db0ca.ttf
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:46.825102 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/font-icons-c834c60ba0ab8b6ea25860362c219fa1d649d87f6f24c5268b2c875d8e3db0ca.ttf.gz
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:46.831504 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/font-icons-13de66596d19798ffdcad167e0913ab7afddc5ad944f669242dbeb87814843d4.woff
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:46.837125 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/fontawesome-webfont-aa58f33f239a0fb02f5c7a6c45c043d7a9ac9a093335806694ecd6d4edc0d6a8.ttf
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:46.837656 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/fontawesome-webfont-aa58f33f239a0fb02f5c7a6c45c043d7a9ac9a093335806694ecd6d4edc0d6a8.ttf.gz
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:46.843032 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/fontawesome-webfont-ba0c59deb5450f5cb41b3f93609ee2d0d995415877ddfa223e8a8a7533474f07.woff
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:46.847140 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:46.850923 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/99gen_arc-71668d30a085a13a7ad7243857c0ae70cfcebb33cbd338d1acefd6c75234d1ce.png
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:46.866497 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/AdobeStock_103570025-1-a09d6ad885e6cb78efb90ed6e82e7efd46e83623ad35a05cd2276eadf34616de.jpg
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:46.913007 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/AdobeStock_103570025-c5c7f5c52b6e3ae8bba113c14713f9a54d7f7771f6724284560b8cfdaf836d34.jpg
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:46.958466 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/AdobeStock_122227340-cb39cc2e21018ef1c236999d22f0a8c85c0292f9144e3b8b0d9d78e86e6e1651.jpg
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:47.094688 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/AdobeStock_124493370-fab68056891d63e0cef5c2bd41206f3155c8b33a740db9215e893d173cfba2a0.jpg
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:47.148970 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/AdobeStock_130711085-9a3c8260df542cede0bc84cff72de10e8010e80f7015ce9225e9d380c7531d31.jpg
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:47.190499 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/AdobeStock_146216308-202ca2fb4bc8b3bda3dcc0f7d50680dab36949a3afcff892262c91393352054b.jpg
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:47.387771 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/AdobeStock_162479912-57abc72aed70c8653d0409e43b4092c36be65c6e3166d26ef009d79b0e55db50.jpg
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:47.409518 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/AdobeStock_170843598-59152738bded238c2ca6ead274556a8ea9085c2b9ac01605b4538d191e69bac2.jpg
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:47.446785 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/AdobeStock_179073967-d4408e6ca189cf84621f701b5789e4efec0b1a5a04b89e0235fcbff1867d3946.jpg
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:47.471180 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/AdobeStock_201036287-c7a8a6831fdf8eae373cee1ff500e9ffd75e6c4101f18eb71b3972f17e96090d.ai
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:47.484660 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/AdobeStock_3294993-eed77a9e8b655c808069e5b71859863931465cdedb1c375a2cae3c333c00db4f.jpg
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:47.498015 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/AdobeStock_33298664-dc17c4447798b1420fe4cfd1398a265e64354bda711873bf3daaf867c9b6487d.jpg
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:47.605655 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/AdobeStock_33975620-4e0987624e82e917f5a9779efed9da3e021a219fbe39d3ba88b4710dc0fe02eb.jpg
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:47.646948 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/AdobeStock_41696502-0c9a4e2db0e15e945206bedd081c677e9e8a5f1550954f38ba8764adfbfb9543.jpg
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:47.661256 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/AdobeStock_42622540-1-fb85010167e2f15b1920a1f8a28119a383e57ea66b9c3967023ce5fb1c359d80.jpg
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:47.692708 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/AdobeStock_42622540-a3cbb266cd57334cc98da5342b776c5c972d159cc9d458a637e9c73255721abb.jpg
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:47.721628 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/AdobeStock_53477661-0363c75f7c15921ffcbcdcccd0e8ff9fcf7fe176a32bb437d42013945579aff7.jpg
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:47.766822 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/AdobeStock_66781279-f4f7687ff07491dc6c2455fed7b06b52f3eb786d273a628f4d2260f7410fbecb.jpg
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:47.810477 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/AdobeStock_72034307-9a1d158968a2351d2f3143da297293d92b8faa9a843484590e2794261f694642.jpg
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:47.841829 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/AdobeStock_73868131-3dfb2733e2d51ccf18ba3ecdea2a6a47bd0315f69f7fce06889c709dad9dffde.jpg
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:47.892226 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/AdobeStock_78149317-6e7c07aac6399aaa205af57eb31f877b7e5b306ca48997ea78a995192105c9c0.jpg
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:47.902413 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/AdobeStock_78149317_1-a8bfc212cf305daddf178063f451ea154b8519c53985f2374ad27cc4f6331635.jpg
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:47.907197 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/IMG_20210525_004543_281-4a05bcc0ee7af164d5bdd03a4d1e77ee7adfdb759454441cd0dfad9cfd4348bc.jpg
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:47.912470 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/M-1-e859c568c0e063a191ee210a748d6b1a7a5c5854a9c084e110e9b225b21818fc.jpg
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:47.918032 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/M-b82dac3b1c4033ee896a80dc613bf57cc3a710a2896545a23ca5b33d3fe23e33.jpg
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:47.924343 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/R2-01-e8f3cb9540322be3c042c73813c63fe4e338b12c76c01260bc34062f5769bf06.jpg
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:47.928295 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/R2-3c6296bf2343b849b947f8ccfce0de61dd34ba7f9e2a23a53d0a743bc4604e3c.png
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:47.934661 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/R201-e8f3cb9540322be3c042c73813c63fe4e338b12c76c01260bc34062f5769bf06.jpg
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:47.940642 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/Screenshot_20220127-075620_Slack-8283de48eb30fb71b6af2b30c0460add1a48ee2a4844d3d35503bc550a130e7d.jpg
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:47.944856 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/Wayne-7ba8aff1019575c9708a2d3722397d122ba099c32bd3c800492d947eed826ded.png
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:47.949068 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/ask-2-history-who-invented-the-elevator-istock_000017202421xlarge-2-1-41b2810336f3bb7128eca5f42d78c7baf33c7287cc0018d2bab197b09b57b05a.jpg
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:47.954515 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/ask-2-history-who-invented-the-elevator-istock_000017202421xlarge-2-0127d543cd63c33cbfd9cb7743595133f32330efbd169d73f795caa66fd13f9c.jpg
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:47.962464 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/dinoco-c4a3c309d830bebdb80151f031bcad872dfdf414af16a370599e073cbda1dcd5.jpg
+ DEBUG [c4be2d6c] 	W, [2022-04-08T21:42:48.159241 #709083]  WARN -- : Removed sourceMappingURL comment for missing asset 'bootstrap.min.js.map' from /home/ubuntu/apps/DigbyLaret/releases/20220408213803/app/assets/javascripts/bootstrap.min.js
+ DEBUG [c4be2d6c] 	W, [2022-04-08T21:42:48.167262 #709083]  WARN -- : Removed sourceMappingURL comment for missing asset 'popper.min.js.map' from /home/ubuntu/apps/DigbyLaret/releases/20220408213803/app/assets/javascripts/scripts.js
+ DEBUG [c4be2d6c] 	W, [2022-04-08T21:42:48.242137 #709083]  WARN -- : Removed sourceMappingURL comment for missing asset 'plugins/bootstrap/js/bootstrap.min.js.map' from /home/ubuntu/apps/DigbyLaret/releases/20220408213803/app/assets/javascripts/plugins/bootstrap/js/bootstrap.min.js
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:48.711472 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/application-a4cbaecd1d3b26573ed04831e00c207927e7779e20e7a9a09910eeaf59eb04fe.js
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:48.711683 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/application-a4cbaecd1d3b26573ed04831e00c207927e7779e20e7a9a09910eeaf59eb04fe.js.gz
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:48.715993 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/plugins/slider.revolution/assets/loader-9034d5d34015e4b05d2c1d1a8dc9f6ec9d59bd96d305eb9e24e24e65c591a645.gif
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:48.723210 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/plugins/slider.revolution/font/revicons-4ca02b8a5c8034de8ddb76e33e50e8398758a83bd18a5073493cace46362780a.ttf
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:48.723544 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/plugins/slider.revolution/font/revicons-4ca02b8a5c8034de8ddb76e33e50e8398758a83bd18a5073493cace46362780a.ttf.gz
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:42:48.727150 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/plugins/slider.revolution/font/revicons-f7b9c3065e55fa3b9e320093612e7b30dcb14355a44ec461247b495a3e729686.woff
+ DEBUG [c4be2d6c] 	autoprefixer: /home/ubuntu/apps/DigbyLaret/releases/20220408213803/app/assets/stylesheets/application.scss:14037:3: Gradient has outdated direction syntax. New syntax is like `to left` instead of `right`.
+autoprefixer: /home/ubuntu/apps/DigbyLaret/releases/20220408213803/app/assets/stylesheets/application.scss:19886:3: Gradient has outdated direction syntax. New syntax is like `to left` instead of `right`.
+autoprefixer: /home/ubuntu/apps/DigbyLaret/releases/20220408213803/app/assets/stylesheets/application.scss:19899:3: Gradient has outdated direction syntax. New syntax is like `to left` instead of `right`.
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:43:11.883018 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/application-a2cb38cd4f73347781503394cc442398ca3915db643fc949ddc81422a4392521.css
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:43:11.883369 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/application-a2cb38cd4f73347781503394cc442398ca3915db643fc949ddc81422a4392521.css.gz
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:43:11.884008 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/fontawesome-webfont-7bfcab6db99d5cfbf1705ca0536ddc78585432cc5fa41bbd7ad0f009033b2979.eot
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:43:11.884531 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/fontawesome-webfont-7bfcab6db99d5cfbf1705ca0536ddc78585432cc5fa41bbd7ad0f009033b2979.eot.gz
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:43:11.886537 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/fontawesome-webfont-ad6157926c1622ba4e1d03d478f1541368524bfc46f51e42fe0d945f7ef323e4.svg
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:43:11.887285 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/fontawesome-webfont-ad6157926c1622ba4e1d03d478f1541368524bfc46f51e42fe0d945f7ef323e4.svg.gz
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:43:11.896671 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/bootstrap.min.css-f3acc53d636000fa7c42774677809455d65fcef29270f4a48d34a817d8725fe7.map
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:43:11.900829 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/blazer/glyphicons-halflings-regular-13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407.eot
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:43:11.901172 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/blazer/glyphicons-halflings-regular-13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407.eot.gz
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:43:11.904368 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/blazer/glyphicons-halflings-regular-42f60659d265c1a3c30f9fa42abcbb56bd4a53af4d83d316d6dd7a36903c43e5.svg
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:43:11.904765 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/blazer/glyphicons-halflings-regular-42f60659d265c1a3c30f9fa42abcbb56bd4a53af4d83d316d6dd7a36903c43e5.svg.gz
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:43:11.907359 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/blazer/glyphicons-halflings-regular-e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456.ttf
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:43:11.907788 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/blazer/glyphicons-halflings-regular-e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456.ttf.gz
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:43:11.910400 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/blazer/glyphicons-halflings-regular-a26394f7ede100ca118eff2eda08596275a9839b959c226e15439557a5a80742.woff
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:43:11.912904 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/blazer/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:43:11.915547 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/blazer/favicon-392743107d0d14fea5699cff1e80d209db7058ef660e643ff9c9f07e990ac084.png
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:43:12.792282 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/blazer/application-2daf1723ce180e9e73695733ca9f1ccc53dd9565dd0aef05a931f22f073746e1.js
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:43:12.792626 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/blazer/application-2daf1723ce180e9e73695733ca9f1ccc53dd9565dd0aef05a931f22f073746e1.js.gz
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:43:15.203993 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/blazer/application-6558d49e6204bf3e61da74a6cd4f8a7b080701bd9ca0894eb395117880708a88.css
+ DEBUG [c4be2d6c] 	I, [2022-04-08T21:43:15.204326 #709083]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/blazer/application-6558d49e6204bf3e61da74a6cd4f8a7b080701bd9ca0894eb395117880708a88.css.gz
+  INFO [c4be2d6c] Finished in 39.943 seconds with exit status 0 (successful).
+ DEBUG [dc485c29] Running if test ! -d /home/ubuntu/apps/DigbyLaret/releases/20220408213803; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/releases/20220408213803'" 1>&2; false; fi as ubuntu@35.183.131.50
+ DEBUG [dc485c29] Command: if test ! -d /home/ubuntu/apps/DigbyLaret/releases/20220408213803; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/releases/20220408213803'" 1>&2; false; fi
+ DEBUG [dc485c29] Finished in 0.148 seconds with exit status 0 (successful).
+  INFO [7b12a310] Running /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/releases/20220408213803/assets_manifest_backup as ubuntu@35.183.131.50
+ DEBUG [7b12a310] Command: cd /home/ubuntu/apps/DigbyLaret/releases/20220408213803 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/releases/20220408213803/assets_manifest_backup )
+  INFO [7b12a310] Finished in 0.195 seconds with exit status 0 (successful).
+ DEBUG [33400865] Running /usr/bin/env ls /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/.sprockets-manifest* as ubuntu@35.183.131.50
+ DEBUG [33400865] Command: cd /home/ubuntu/apps/DigbyLaret/releases/20220408213803 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env ls /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/.sprockets-manifest* )
+ DEBUG [33400865] 	/home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/.sprockets-manifest-b0188159fe5b141305f2b575cce39c45.json
+ DEBUG [33400865] Finished in 0.155 seconds with exit status 0 (successful).
+ DEBUG [5fe0196b] Running /usr/bin/env ls /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/.sprockets-manifest* as ubuntu@35.183.131.50
+ DEBUG [5fe0196b] Command: cd /home/ubuntu/apps/DigbyLaret/releases/20220408213803 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env ls /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/.sprockets-manifest* )
+ DEBUG [5fe0196b] 	/home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/.sprockets-manifest-b0188159fe5b141305f2b575cce39c45.json
+ DEBUG [5fe0196b] Finished in 0.195 seconds with exit status 0 (successful).
+  INFO [ca788595] Running /usr/bin/env cp /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/.sprockets-manifest-b0188159fe5b141305f2b575cce39c45.json /home/ubuntu/apps/DigbyLaret/releases/20220408213803/assets_manifest_backup as ubuntu@35.183.131.50
+ DEBUG [ca788595] Command: cd /home/ubuntu/apps/DigbyLaret/releases/20220408213803 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env cp /home/ubuntu/apps/DigbyLaret/releases/20220408213803/public/assets/.sprockets-manifest-b0188159fe5b141305f2b575cce39c45.json /home/ubuntu/apps/DigbyLaret/releases/20220408213803/assets_manifest_backup )
+  INFO [ca788595] Finished in 0.155 seconds with exit status 0 (successful).
+  INFO [deploy:migrate] Run `rake db:migrate`
+ DEBUG [516ec6a1] Running if test ! -d /home/ubuntu/apps/DigbyLaret/releases/20220408213803; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/releases/20220408213803'" 1>&2; false; fi as ubuntu@35.183.131.50
+ DEBUG [516ec6a1] Command: if test ! -d /home/ubuntu/apps/DigbyLaret/releases/20220408213803; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/releases/20220408213803'" 1>&2; false; fi
+ DEBUG [516ec6a1] Finished in 0.181 seconds with exit status 0 (successful).
+  INFO [d0973bad] Running RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle exec rake db:migrate as ubuntu@35.183.131.50
+ DEBUG [d0973bad] Command: cd /home/ubuntu/apps/DigbyLaret/releases/20220408213803 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" RAILS_ENV="development" ; RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle exec rake db:migrate )
+ DEBUG [d0973bad] 	rake aborted!
+ActiveRecord::NoDatabaseError: Unknown database 'DigbyLaret'
+ DEBUG [d0973bad] 	/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_adapters/mysql2_adapter.rb:26:in `rescue in mysql2_connection'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_adapters/mysql2_adapter.rb:12:in `mysql2_connection'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:830:in `new_connection'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:874:in `checkout_new_connection'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `try_to_checkout_new_connection'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:814:in `acquire_connection'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:538:in `checkout'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:1033:in `retrieve_connection'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_handling.rb:90:in `connection'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/tasks/database_tasks.rb:172:in `migrate'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/railties/databases.rake:60:in `block (2 levels) in <main>'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/rake-13.0.6/exe/rake:27:in `<top (required)>'
+/home/ubuntu/.rbenv/versions/2.7.5/bin/bundle:23:in `load'
+/home/ubuntu/.rbenv/versions/2.7.5/bin/bundle:23:in `<main>'
+
+Caused by:
+ DEBUG [d0973bad] 	Mysql2::Error: Unknown database 'DigbyLaret'
+ DEBUG [d0973bad] 	/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/mysql2-0.5.3/lib/mysql2/client.rb:90:in `connect'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/mysql2-0.5.3/lib/mysql2/client.rb:90:in `initialize'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_adapters/mysql2_adapter.rb:22:in `new'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_adapters/mysql2_adapter.rb:22:in `mysql2_connection'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:830:in `new_connection'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:874:in `checkout_new_connection'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `try_to_checkout_new_connection'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:814:in `acquire_connection'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:538:in `checkout'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:1033:in `retrieve_connection'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_handling.rb:90:in `connection'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/tasks/database_tasks.rb:172:in `migrate'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/railties/databases.rake:60:in `block (2 levels) in <main>'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/rake-13.0.6/exe/rake:27:in `<top (required)>'
+/home/ubuntu/.rbenv/versions/2.7.5/bin/bundle:23:in `load'
+/home/ubuntu/.rbenv/versions/2.7.5/bin/bundle:23:in `<main>'
+ DEBUG [d0973bad] 	Tasks: TOP => db:migrate
+(See full trace by running task with --trace)
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-04-08 17:44:21 -0400 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [9f87b1f0] Running [ -d $HOME/.rbenv/versions/2.7.5 ] as ubuntu@35.183.131.50
+ DEBUG [9f87b1f0] Command: [ -d $HOME/.rbenv/versions/2.7.5 ]
+ DEBUG [9f87b1f0] Finished in 6.185 seconds with exit status 0 (successful).
+  INFO [b883feee] Running /usr/bin/env mkdir -p /tmp as ubuntu@35.183.131.50
+ DEBUG [b883feee] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env mkdir -p /tmp )
+  INFO [b883feee] Finished in 0.152 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-7cdd5cbfa72a4fb91a97.sh 0.0%
+  INFO Uploading /tmp/git-ssh-7cdd5cbfa72a4fb91a97.sh 100.0%
+  INFO [2c7ae951] Running /usr/bin/env chmod 700 /tmp/git-ssh-7cdd5cbfa72a4fb91a97.sh as ubuntu@35.183.131.50
+ DEBUG [2c7ae951] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env chmod 700 /tmp/git-ssh-7cdd5cbfa72a4fb91a97.sh )
+  INFO [2c7ae951] Finished in 0.155 seconds with exit status 0 (successful).
+  INFO [22c46b6e] Running /usr/bin/env git ls-remote https://github.com/RealTerrific/Rocket_Elevators_Foundation HEAD as ubuntu@35.183.131.50
+ DEBUG [22c46b6e] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-7cdd5cbfa72a4fb91a97.sh" ; /usr/bin/env git ls-remote https://github.com/RealTerrific/Rocket_Elevators_Foundation HEAD )
+ DEBUG [22c46b6e] 	3958d226979dab17d15e8267ae6e5567135701e4	HEAD
+  INFO [22c46b6e] Finished in 0.314 seconds with exit status 0 (successful).
+  INFO [d62d5f54] Running /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/shared /home/ubuntu/apps/DigbyLaret/releases as ubuntu@35.183.131.50
+ DEBUG [d62d5f54] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/shared /home/ubuntu/apps/DigbyLaret/releases )
+  INFO [d62d5f54] Finished in 0.153 seconds with exit status 0 (successful).
+  INFO [3839374d] Running /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/shared/tmp/pids /home/ubuntu/apps/DigbyLaret/shared/tmp/sockets /home/ubuntu/apps/DigbyLaret/shared/log /home/ubuntu/apps/DigbyLaret/shared/public/assets as ubuntu@35.183.131.50
+ DEBUG [3839374d] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/shared/tmp/pids /home/ubuntu/apps/DigbyLaret/shared/tmp/sockets /home/ubuntu/apps/DigbyLaret/shared/log /home/ubuntu/apps/DigbyLaret/shared/public/assets )
+  INFO [3839374d] Finished in 0.195 seconds with exit status 0 (successful).
+  INFO [039b82a8] Running /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/shared/config as ubuntu@35.183.131.50
+ DEBUG [039b82a8] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/shared/config )
+  INFO [039b82a8] Finished in 0.154 seconds with exit status 0 (successful).
+ DEBUG [8e451a19] Running [ -f /home/ubuntu/apps/DigbyLaret/shared/config/database.yml ] as ubuntu@35.183.131.50
+ DEBUG [8e451a19] Command: [ -f /home/ubuntu/apps/DigbyLaret/shared/config/database.yml ]
+ DEBUG [8e451a19] Finished in 0.191 seconds with exit status 0 (successful).
+ DEBUG [85065405] Running [ -f /home/ubuntu/apps/DigbyLaret/shared/puma.rb ] as ubuntu@35.183.131.50
+ DEBUG [85065405] Command: [ -f /home/ubuntu/apps/DigbyLaret/shared/puma.rb ]
+ DEBUG [85065405] Finished in 0.150 seconds with exit status 0 (successful).
+ DEBUG [71079deb] Running [ -f /home/ubuntu/apps/DigbyLaret/current/REVISION ] as ubuntu@35.183.131.50
+ DEBUG [71079deb] Command: [ -f /home/ubuntu/apps/DigbyLaret/current/REVISION ]
+ DEBUG [71079deb] Finished in 0.192 seconds with exit status 1 (failed).
+ DEBUG [08fd76bf] Running [ -f /home/ubuntu/apps/DigbyLaret/repo/HEAD ] as ubuntu@35.183.131.50
+ DEBUG [08fd76bf] Command: [ -f /home/ubuntu/apps/DigbyLaret/repo/HEAD ]
+ DEBUG [08fd76bf] Finished in 0.154 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/ubuntu/apps/DigbyLaret/repo
+ DEBUG [f452cb5a] Running if test ! -d /home/ubuntu/apps/DigbyLaret/repo; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/repo'" 1>&2; false; fi as ubuntu@35.183.131.50
+ DEBUG [f452cb5a] Command: if test ! -d /home/ubuntu/apps/DigbyLaret/repo; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/repo'" 1>&2; false; fi
+ DEBUG [f452cb5a] Finished in 0.192 seconds with exit status 0 (successful).
+  INFO [c1ca9c5e] Running /usr/bin/env git remote set-url origin https://github.com/RealTerrific/Rocket_Elevators_Foundation as ubuntu@35.183.131.50
+ DEBUG [c1ca9c5e] Command: cd /home/ubuntu/apps/DigbyLaret/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-7cdd5cbfa72a4fb91a97.sh" ; /usr/bin/env git remote set-url origin https://github.com/RealTerrific/Rocket_Elevators_Foundation )
+  INFO [c1ca9c5e] Finished in 0.155 seconds with exit status 0 (successful).
+  INFO [d9c42274] Running /usr/bin/env git remote update --prune as ubuntu@35.183.131.50
+ DEBUG [d9c42274] Command: cd /home/ubuntu/apps/DigbyLaret/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-7cdd5cbfa72a4fb91a97.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [d9c42274] 	Fetching origin
+  INFO [d9c42274] Finished in 0.363 seconds with exit status 0 (successful).
+ DEBUG [94710b67] Running if test ! -d /home/ubuntu/apps/DigbyLaret/repo; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/repo'" 1>&2; false; fi as ubuntu@35.183.131.50
+ DEBUG [94710b67] Command: if test ! -d /home/ubuntu/apps/DigbyLaret/repo; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/repo'" 1>&2; false; fi
+ DEBUG [94710b67] Finished in 0.154 seconds with exit status 0 (successful).
+  INFO [df508766] Running /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/releases/20220408214430 as ubuntu@35.183.131.50
+ DEBUG [df508766] Command: cd /home/ubuntu/apps/DigbyLaret/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-7cdd5cbfa72a4fb91a97.sh" ; /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/releases/20220408214430 )
+  INFO [df508766] Finished in 0.195 seconds with exit status 0 (successful).
+  INFO [256a8802] Running /usr/bin/env git archive main | /usr/bin/env tar -x -f - -C /home/ubuntu/apps/DigbyLaret/releases/20220408214430 as ubuntu@35.183.131.50
+ DEBUG [256a8802] Command: cd /home/ubuntu/apps/DigbyLaret/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-7cdd5cbfa72a4fb91a97.sh" ; /usr/bin/env git archive main | /usr/bin/env tar -x -f - -C /home/ubuntu/apps/DigbyLaret/releases/20220408214430 )
+  INFO [256a8802] Finished in 1.850 seconds with exit status 0 (successful).
+ DEBUG [1b994bf7] Running if test ! -d /home/ubuntu/apps/DigbyLaret/repo; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/repo'" 1>&2; false; fi as ubuntu@35.183.131.50
+ DEBUG [1b994bf7] Command: if test ! -d /home/ubuntu/apps/DigbyLaret/repo; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/repo'" 1>&2; false; fi
+ DEBUG [1b994bf7] Finished in 0.191 seconds with exit status 0 (successful).
+ DEBUG [900ae3be] Running /usr/bin/env git rev-list --max-count=1 main as ubuntu@35.183.131.50
+ DEBUG [900ae3be] Command: cd /home/ubuntu/apps/DigbyLaret/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-7cdd5cbfa72a4fb91a97.sh" ; /usr/bin/env git rev-list --max-count=1 main )
+ DEBUG [900ae3be] 	3958d226979dab17d15e8267ae6e5567135701e4
+ DEBUG [900ae3be] Finished in 0.155 seconds with exit status 0 (successful).
+ DEBUG [02c4322c] Running if test ! -d /home/ubuntu/apps/DigbyLaret/releases/20220408214430; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/releases/20220408214430'" 1>&2; false; fi as ubuntu@35.183.131.50
+ DEBUG [02c4322c] Command: if test ! -d /home/ubuntu/apps/DigbyLaret/releases/20220408214430; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/releases/20220408214430'" 1>&2; false; fi
+ DEBUG [02c4322c] Finished in 0.192 seconds with exit status 0 (successful).
+  INFO [9fba28fa] Running /usr/bin/env echo "3958d226979dab17d15e8267ae6e5567135701e4" > REVISION as ubuntu@35.183.131.50
+ DEBUG [9fba28fa] Command: cd /home/ubuntu/apps/DigbyLaret/releases/20220408214430 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env echo "3958d226979dab17d15e8267ae6e5567135701e4" > REVISION )
+  INFO [9fba28fa] Finished in 0.160 seconds with exit status 0 (successful).
+  INFO [fc10cd0a] Running /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/releases/20220408214430/config as ubuntu@35.183.131.50
+ DEBUG [fc10cd0a] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/releases/20220408214430/config )
+  INFO [fc10cd0a] Finished in 0.197 seconds with exit status 0 (successful).
+ DEBUG [be91958e] Running [ -L /home/ubuntu/apps/DigbyLaret/releases/20220408214430/config/database.yml ] as ubuntu@35.183.131.50
+ DEBUG [be91958e] Command: [ -L /home/ubuntu/apps/DigbyLaret/releases/20220408214430/config/database.yml ]
+ DEBUG [be91958e] Finished in 0.151 seconds with exit status 1 (failed).
+ DEBUG [6aa4f584] Running [ -f /home/ubuntu/apps/DigbyLaret/releases/20220408214430/config/database.yml ] as ubuntu@35.183.131.50
+ DEBUG [6aa4f584] Command: [ -f /home/ubuntu/apps/DigbyLaret/releases/20220408214430/config/database.yml ]
+ DEBUG [6aa4f584] Finished in 0.196 seconds with exit status 0 (successful).
+  INFO [ebe17d94] Running /usr/bin/env rm /home/ubuntu/apps/DigbyLaret/releases/20220408214430/config/database.yml as ubuntu@35.183.131.50
+ DEBUG [ebe17d94] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env rm /home/ubuntu/apps/DigbyLaret/releases/20220408214430/config/database.yml )
+  INFO [ebe17d94] Finished in 0.153 seconds with exit status 0 (successful).
+  INFO [f355ba3f] Running /usr/bin/env ln -s /home/ubuntu/apps/DigbyLaret/shared/config/database.yml /home/ubuntu/apps/DigbyLaret/releases/20220408214430/config/database.yml as ubuntu@35.183.131.50
+ DEBUG [f355ba3f] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env ln -s /home/ubuntu/apps/DigbyLaret/shared/config/database.yml /home/ubuntu/apps/DigbyLaret/releases/20220408214430/config/database.yml )
+  INFO [f355ba3f] Finished in 0.194 seconds with exit status 0 (successful).
+  INFO [c95011d6] Running /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/releases/20220408214430/tmp /home/ubuntu/apps/DigbyLaret/releases/20220408214430 /home/ubuntu/apps/DigbyLaret/releases/20220408214430/public as ubuntu@35.183.131.50
+ DEBUG [c95011d6] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/releases/20220408214430/tmp /home/ubuntu/apps/DigbyLaret/releases/20220408214430 /home/ubuntu/apps/DigbyLaret/releases/20220408214430/public )
+  INFO [c95011d6] Finished in 0.153 seconds with exit status 0 (successful).
+ DEBUG [70e2c389] Running [ -L /home/ubuntu/apps/DigbyLaret/releases/20220408214430/tmp/pids ] as ubuntu@35.183.131.50
+ DEBUG [70e2c389] Command: [ -L /home/ubuntu/apps/DigbyLaret/releases/20220408214430/tmp/pids ]
+ DEBUG [70e2c389] Finished in 0.193 seconds with exit status 1 (failed).
+ DEBUG [64572457] Running [ -d /home/ubuntu/apps/DigbyLaret/releases/20220408214430/tmp/pids ] as ubuntu@35.183.131.50
+ DEBUG [64572457] Command: [ -d /home/ubuntu/apps/DigbyLaret/releases/20220408214430/tmp/pids ]
+ DEBUG [64572457] Finished in 0.152 seconds with exit status 1 (failed).
+  INFO [63802518] Running /usr/bin/env ln -s /home/ubuntu/apps/DigbyLaret/shared/tmp/pids /home/ubuntu/apps/DigbyLaret/releases/20220408214430/tmp/pids as ubuntu@35.183.131.50
+ DEBUG [63802518] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env ln -s /home/ubuntu/apps/DigbyLaret/shared/tmp/pids /home/ubuntu/apps/DigbyLaret/releases/20220408214430/tmp/pids )
+  INFO [63802518] Finished in 0.196 seconds with exit status 0 (successful).
+ DEBUG [1d9c6837] Running [ -L /home/ubuntu/apps/DigbyLaret/releases/20220408214430/tmp/sockets ] as ubuntu@35.183.131.50
+ DEBUG [1d9c6837] Command: [ -L /home/ubuntu/apps/DigbyLaret/releases/20220408214430/tmp/sockets ]
+ DEBUG [1d9c6837] Finished in 0.155 seconds with exit status 1 (failed).
+ DEBUG [29614a01] Running [ -d /home/ubuntu/apps/DigbyLaret/releases/20220408214430/tmp/sockets ] as ubuntu@35.183.131.50
+ DEBUG [29614a01] Command: [ -d /home/ubuntu/apps/DigbyLaret/releases/20220408214430/tmp/sockets ]
+ DEBUG [29614a01] Finished in 0.192 seconds with exit status 1 (failed).
+  INFO [716a8901] Running /usr/bin/env ln -s /home/ubuntu/apps/DigbyLaret/shared/tmp/sockets /home/ubuntu/apps/DigbyLaret/releases/20220408214430/tmp/sockets as ubuntu@35.183.131.50
+ DEBUG [716a8901] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env ln -s /home/ubuntu/apps/DigbyLaret/shared/tmp/sockets /home/ubuntu/apps/DigbyLaret/releases/20220408214430/tmp/sockets )
+  INFO [716a8901] Finished in 0.153 seconds with exit status 0 (successful).
+ DEBUG [2810e599] Running [ -L /home/ubuntu/apps/DigbyLaret/releases/20220408214430/log ] as ubuntu@35.183.131.50
+ DEBUG [2810e599] Command: [ -L /home/ubuntu/apps/DigbyLaret/releases/20220408214430/log ]
+ DEBUG [2810e599] Finished in 0.219 seconds with exit status 1 (failed).
+ DEBUG [90bffb39] Running [ -d /home/ubuntu/apps/DigbyLaret/releases/20220408214430/log ] as ubuntu@35.183.131.50
+ DEBUG [90bffb39] Command: [ -d /home/ubuntu/apps/DigbyLaret/releases/20220408214430/log ]
+ DEBUG [90bffb39] Finished in 0.157 seconds with exit status 0 (successful).
+  INFO [021030cb] Running /usr/bin/env rm -rf /home/ubuntu/apps/DigbyLaret/releases/20220408214430/log as ubuntu@35.183.131.50
+ DEBUG [021030cb] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env rm -rf /home/ubuntu/apps/DigbyLaret/releases/20220408214430/log )
+  INFO [021030cb] Finished in 0.199 seconds with exit status 0 (successful).
+  INFO [5595a68e] Running /usr/bin/env ln -s /home/ubuntu/apps/DigbyLaret/shared/log /home/ubuntu/apps/DigbyLaret/releases/20220408214430/log as ubuntu@35.183.131.50
+ DEBUG [5595a68e] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env ln -s /home/ubuntu/apps/DigbyLaret/shared/log /home/ubuntu/apps/DigbyLaret/releases/20220408214430/log )
+  INFO [5595a68e] Finished in 0.159 seconds with exit status 0 (successful).
+ DEBUG [82b80ca4] Running [ -L /home/ubuntu/apps/DigbyLaret/releases/20220408214430/public/assets ] as ubuntu@35.183.131.50
+ DEBUG [82b80ca4] Command: [ -L /home/ubuntu/apps/DigbyLaret/releases/20220408214430/public/assets ]
+ DEBUG [82b80ca4] Finished in 0.197 seconds with exit status 1 (failed).
+ DEBUG [95bb3c9f] Running [ -d /home/ubuntu/apps/DigbyLaret/releases/20220408214430/public/assets ] as ubuntu@35.183.131.50
+ DEBUG [95bb3c9f] Command: [ -d /home/ubuntu/apps/DigbyLaret/releases/20220408214430/public/assets ]
+ DEBUG [95bb3c9f] Finished in 0.156 seconds with exit status 1 (failed).
+  INFO [582cd9a9] Running /usr/bin/env ln -s /home/ubuntu/apps/DigbyLaret/shared/public/assets /home/ubuntu/apps/DigbyLaret/releases/20220408214430/public/assets as ubuntu@35.183.131.50
+ DEBUG [582cd9a9] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env ln -s /home/ubuntu/apps/DigbyLaret/shared/public/assets /home/ubuntu/apps/DigbyLaret/releases/20220408214430/public/assets )
+  INFO [582cd9a9] Finished in 0.195 seconds with exit status 0 (successful).
+ DEBUG [b4194e7a] Running if test ! -d /home/ubuntu/apps/DigbyLaret/releases/20220408214430; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/releases/20220408214430'" 1>&2; false; fi as ubuntu@35.183.131.50
+ DEBUG [b4194e7a] Command: if test ! -d /home/ubuntu/apps/DigbyLaret/releases/20220408214430; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/releases/20220408214430'" 1>&2; false; fi
+ DEBUG [b4194e7a] Finished in 0.149 seconds with exit status 0 (successful).
+  INFO [779b72f3] Running RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle config --local deployment true as ubuntu@35.183.131.50
+ DEBUG [779b72f3] Command: cd /home/ubuntu/apps/DigbyLaret/releases/20220408214430 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle config --local deployment true )
+  INFO [779b72f3] Finished in 0.420 seconds with exit status 0 (successful).
+  INFO [926ed148] Running RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle config --local path /home/ubuntu/apps/DigbyLaret/shared/bundle as ubuntu@35.183.131.50
+ DEBUG [926ed148] Command: cd /home/ubuntu/apps/DigbyLaret/releases/20220408214430 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle config --local path /home/ubuntu/apps/DigbyLaret/shared/bundle )
+  INFO [926ed148] Finished in 0.371 seconds with exit status 0 (successful).
+  INFO [55ddb7fc] Running RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle config --local without production as ubuntu@35.183.131.50
+ DEBUG [55ddb7fc] Command: cd /home/ubuntu/apps/DigbyLaret/releases/20220408214430 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle config --local without production )
+  INFO [55ddb7fc] Finished in 0.413 seconds with exit status 0 (successful).
+ DEBUG [50a2a34d] Running if test ! -d /home/ubuntu/apps/DigbyLaret/releases/20220408214430; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/releases/20220408214430'" 1>&2; false; fi as ubuntu@35.183.131.50
+ DEBUG [50a2a34d] Command: if test ! -d /home/ubuntu/apps/DigbyLaret/releases/20220408214430; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/releases/20220408214430'" 1>&2; false; fi
+ DEBUG [50a2a34d] Finished in 0.149 seconds with exit status 0 (successful).
+ DEBUG [2939be1a] Running RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle check as ubuntu@35.183.131.50
+ DEBUG [2939be1a] Command: cd /home/ubuntu/apps/DigbyLaret/releases/20220408214430 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle check )
+ DEBUG [2939be1a] 	The Gemfile's dependencies are satisfied
+ DEBUG [2939be1a] Finished in 1.511 seconds with exit status 0 (successful).
+  INFO The Gemfile's dependencies are satisfied, skipping installation
+ DEBUG [644dcbcf] Running if test ! -d /home/ubuntu/apps/DigbyLaret/releases/20220408214430; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/releases/20220408214430'" 1>&2; false; fi as ubuntu@35.183.131.50
+ DEBUG [644dcbcf] Command: if test ! -d /home/ubuntu/apps/DigbyLaret/releases/20220408214430; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/releases/20220408214430'" 1>&2; false; fi
+ DEBUG [644dcbcf] Finished in 0.152 seconds with exit status 0 (successful).
+  INFO [24f0d332] Running RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle exec rake assets:precompile as ubuntu@35.183.131.50
+ DEBUG [24f0d332] Command: cd /home/ubuntu/apps/DigbyLaret/releases/20220408214430 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" RAILS_ENV="development" RAILS_GROUPS="" ; RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle exec rake assets:precompile )
+ DEBUG [24f0d332] 	W, [2022-04-08T21:44:53.194634 #709594]  WARN -- : Removed sourceMappingURL comment for missing asset 'bootstrap.min.js.map' from /home/ubuntu/apps/DigbyLaret/releases/20220408214430/app/assets/javascripts/bootstrap.min.js
+ DEBUG [24f0d332] 	W, [2022-04-08T21:44:53.202472 #709594]  WARN -- : Removed sourceMappingURL comment for missing asset 'popper.min.js.map' from /home/ubuntu/apps/DigbyLaret/releases/20220408214430/app/assets/javascripts/scripts.js
+ DEBUG [24f0d332] 	W, [2022-04-08T21:44:53.269463 #709594]  WARN -- : Removed sourceMappingURL comment for missing asset 'plugins/bootstrap/js/bootstrap.min.js.map' from /home/ubuntu/apps/DigbyLaret/releases/20220408214430/app/assets/javascripts/plugins/bootstrap/js/bootstrap.min.js
+ DEBUG [24f0d332] 	autoprefixer: /home/ubuntu/apps/DigbyLaret/releases/20220408214430/app/assets/stylesheets/application.scss:14037:3: Gradient has outdated direction syntax. New syntax is like `to left` instead of `right`.
+autoprefixer: /home/ubuntu/apps/DigbyLaret/releases/20220408214430/app/assets/stylesheets/application.scss:19886:3: Gradient has outdated direction syntax. New syntax is like `to left` instead of `right`.
+autoprefixer: /home/ubuntu/apps/DigbyLaret/releases/20220408214430/app/assets/stylesheets/application.scss:19899:3: Gradient has outdated direction syntax. New syntax is like `to left` instead of `right`.
+ DEBUG [24f0d332] 	I, [2022-04-08T21:45:16.883853 #709594]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408214430/public/assets/application-46179462258f1f19e17e5c066afafa707e0422157944ad1b5b96e292f4b9a5ac.css
+ DEBUG [24f0d332] 	I, [2022-04-08T21:45:16.884296 #709594]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408214430/public/assets/application-46179462258f1f19e17e5c066afafa707e0422157944ad1b5b96e292f4b9a5ac.css.gz
+  INFO [24f0d332] Finished in 38.641 seconds with exit status 0 (successful).
+ DEBUG [e4a79792] Running if test ! -d /home/ubuntu/apps/DigbyLaret/releases/20220408214430; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/releases/20220408214430'" 1>&2; false; fi as ubuntu@35.183.131.50
+ DEBUG [e4a79792] Command: if test ! -d /home/ubuntu/apps/DigbyLaret/releases/20220408214430; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/releases/20220408214430'" 1>&2; false; fi
+ DEBUG [e4a79792] Finished in 0.149 seconds with exit status 0 (successful).
+  INFO [b1806721] Running /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/releases/20220408214430/assets_manifest_backup as ubuntu@35.183.131.50
+ DEBUG [b1806721] Command: cd /home/ubuntu/apps/DigbyLaret/releases/20220408214430 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/releases/20220408214430/assets_manifest_backup )
+  INFO [b1806721] Finished in 0.200 seconds with exit status 0 (successful).
+ DEBUG [a6d2d578] Running /usr/bin/env ls /home/ubuntu/apps/DigbyLaret/releases/20220408214430/public/assets/.sprockets-manifest* as ubuntu@35.183.131.50
+ DEBUG [a6d2d578] Command: cd /home/ubuntu/apps/DigbyLaret/releases/20220408214430 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env ls /home/ubuntu/apps/DigbyLaret/releases/20220408214430/public/assets/.sprockets-manifest* )
+ DEBUG [a6d2d578] 	/home/ubuntu/apps/DigbyLaret/releases/20220408214430/public/assets/.sprockets-manifest-b0188159fe5b141305f2b575cce39c45.json
+ DEBUG [a6d2d578] Finished in 0.154 seconds with exit status 0 (successful).
+ DEBUG [7dda9ded] Running /usr/bin/env ls /home/ubuntu/apps/DigbyLaret/releases/20220408214430/public/assets/.sprockets-manifest* as ubuntu@35.183.131.50
+ DEBUG [7dda9ded] Command: cd /home/ubuntu/apps/DigbyLaret/releases/20220408214430 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env ls /home/ubuntu/apps/DigbyLaret/releases/20220408214430/public/assets/.sprockets-manifest* )
+ DEBUG [7dda9ded] 	/home/ubuntu/apps/DigbyLaret/releases/20220408214430/public/assets/.sprockets-manifest-b0188159fe5b141305f2b575cce39c45.json
+ DEBUG [7dda9ded] Finished in 0.198 seconds with exit status 0 (successful).
+  INFO [a7502b85] Running /usr/bin/env cp /home/ubuntu/apps/DigbyLaret/releases/20220408214430/public/assets/.sprockets-manifest-b0188159fe5b141305f2b575cce39c45.json /home/ubuntu/apps/DigbyLaret/releases/20220408214430/assets_manifest_backup as ubuntu@35.183.131.50
+ DEBUG [a7502b85] Command: cd /home/ubuntu/apps/DigbyLaret/releases/20220408214430 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env cp /home/ubuntu/apps/DigbyLaret/releases/20220408214430/public/assets/.sprockets-manifest-b0188159fe5b141305f2b575cce39c45.json /home/ubuntu/apps/DigbyLaret/releases/20220408214430/assets_manifest_backup )
+  INFO [a7502b85] Finished in 0.155 seconds with exit status 0 (successful).
+  INFO [deploy:migrate] Run `rake db:migrate`
+ DEBUG [2473114c] Running if test ! -d /home/ubuntu/apps/DigbyLaret/releases/20220408214430; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/releases/20220408214430'" 1>&2; false; fi as ubuntu@35.183.131.50
+ DEBUG [2473114c] Command: if test ! -d /home/ubuntu/apps/DigbyLaret/releases/20220408214430; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/releases/20220408214430'" 1>&2; false; fi
+ DEBUG [2473114c] Finished in 0.187 seconds with exit status 0 (successful).
+  INFO [9d282a2e] Running RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle exec rake db:migrate as ubuntu@35.183.131.50
+ DEBUG [9d282a2e] Command: cd /home/ubuntu/apps/DigbyLaret/releases/20220408214430 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" RAILS_ENV="development" ; RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle exec rake db:migrate )
+ DEBUG [9d282a2e] 	rake aborted!
+ActiveRecord::NoDatabaseError: Unknown database 'DigbyLaret'
+ DEBUG [9d282a2e] 	/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_adapters/mysql2_adapter.rb:26:in `rescue in mysql2_connection'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_adapters/mysql2_adapter.rb:12:in `mysql2_connection'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:830:in `new_connection'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:874:in `checkout_new_connection'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `try_to_checkout_new_connection'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:814:in `acquire_connection'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:538:in `checkout'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:1033:in `retrieve_connection'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_handling.rb:90:in `connection'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/tasks/database_tasks.rb:172:in `migrate'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/railties/databases.rake:60:in `block (2 levels) in <main>'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/rake-13.0.6/exe/rake:27:in `<top (required)>'
+/home/ubuntu/.rbenv/versions/2.7.5/bin/bundle:23:in `load'
+/home/ubuntu/.rbenv/versions/2.7.5/bin/bundle:23:in `<main>'
+
+Caused by:
+Mysql2::Error: Unknown database 'DigbyLaret'
+ DEBUG [9d282a2e] 	/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/mysql2-0.5.3/lib/mysql2/client.rb:90:in `connect'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/mysql2-0.5.3/lib/mysql2/client.rb:90:in `initialize'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_adapters/mysql2_adapter.rb:22:in `new'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_adapters/mysql2_adapter.rb:22:in `mysql2_connection'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:830:in `new_connection'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:874:in `checkout_new_connection'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `try_to_checkout_new_connection'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:814:in `acquire_connection'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:538:in `checkout'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:1033:in `retrieve_connection'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/connection_handling.rb:90:in `connection'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/tasks/database_tasks.rb:172:in `migrate'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/activerecord-5.2.7/lib/active_record/railties/databases.rake:60:in `block (2 levels) in <main>'
+/home/ubuntu/apps/DigbyLaret/shared/bundle/ruby/2.7.0/gems/rake-13.0.6/exe/rake:27:in `<top (required)>'
+/home/ubuntu/.rbenv/versions/2.7.5/bin/bundle:23:in `load'
+/home/ubuntu/.rbenv/versions/2.7.5/bin/bundle:23:in `<main>'
+ DEBUG [9d282a2e] 	Tasks: TOP => db:migrate
+(See full trace by running task with --trace)
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-04-08 17:48:59 -0400 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [b4d41c6b] Running [ -d $HOME/.rbenv/versions/2.7.5 ] as ubuntu@35.183.131.50
+ DEBUG [b4d41c6b] Command: [ -d $HOME/.rbenv/versions/2.7.5 ]
+ DEBUG [b4d41c6b] Finished in 5.456 seconds with exit status 0 (successful).
+  INFO [b8548f5b] Running /usr/bin/env mkdir -p /tmp as ubuntu@35.183.131.50
+ DEBUG [b8548f5b] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env mkdir -p /tmp )
+  INFO [b8548f5b] Finished in 0.152 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-21673eb6fb3568c45781.sh 0.0%
+  INFO Uploading /tmp/git-ssh-21673eb6fb3568c45781.sh 100.0%
+  INFO [41197765] Running /usr/bin/env chmod 700 /tmp/git-ssh-21673eb6fb3568c45781.sh as ubuntu@35.183.131.50
+ DEBUG [41197765] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env chmod 700 /tmp/git-ssh-21673eb6fb3568c45781.sh )
+  INFO [41197765] Finished in 0.155 seconds with exit status 0 (successful).
+  INFO [334ede5f] Running /usr/bin/env git ls-remote https://github.com/RealTerrific/Rocket_Elevators_Foundation HEAD as ubuntu@35.183.131.50
+ DEBUG [334ede5f] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-21673eb6fb3568c45781.sh" ; /usr/bin/env git ls-remote https://github.com/RealTerrific/Rocket_Elevators_Foundation HEAD )
+ DEBUG [334ede5f] 	3958d226979dab17d15e8267ae6e5567135701e4	HEAD
+  INFO [334ede5f] Finished in 0.315 seconds with exit status 0 (successful).
+  INFO [1223513f] Running /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/shared /home/ubuntu/apps/DigbyLaret/releases as ubuntu@35.183.131.50
+ DEBUG [1223513f] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/shared /home/ubuntu/apps/DigbyLaret/releases )
+  INFO [1223513f] Finished in 0.152 seconds with exit status 0 (successful).
+  INFO [0fa78438] Running /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/shared/tmp/pids /home/ubuntu/apps/DigbyLaret/shared/tmp/sockets /home/ubuntu/apps/DigbyLaret/shared/log /home/ubuntu/apps/DigbyLaret/shared/public/assets as ubuntu@35.183.131.50
+ DEBUG [0fa78438] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/shared/tmp/pids /home/ubuntu/apps/DigbyLaret/shared/tmp/sockets /home/ubuntu/apps/DigbyLaret/shared/log /home/ubuntu/apps/DigbyLaret/shared/public/assets )
+  INFO [0fa78438] Finished in 0.200 seconds with exit status 0 (successful).
+  INFO [4fc51bf9] Running /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/shared/config as ubuntu@35.183.131.50
+ DEBUG [4fc51bf9] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/shared/config )
+  INFO [4fc51bf9] Finished in 0.152 seconds with exit status 0 (successful).
+ DEBUG [6f9f5416] Running [ -f /home/ubuntu/apps/DigbyLaret/shared/config/database.yml ] as ubuntu@35.183.131.50
+ DEBUG [6f9f5416] Command: [ -f /home/ubuntu/apps/DigbyLaret/shared/config/database.yml ]
+ DEBUG [6f9f5416] Finished in 0.192 seconds with exit status 0 (successful).
+ DEBUG [d9e49d00] Running [ -f /home/ubuntu/apps/DigbyLaret/shared/puma.rb ] as ubuntu@35.183.131.50
+ DEBUG [d9e49d00] Command: [ -f /home/ubuntu/apps/DigbyLaret/shared/puma.rb ]
+ DEBUG [d9e49d00] Finished in 0.149 seconds with exit status 0 (successful).
+ DEBUG [7e78c01d] Running [ -f /home/ubuntu/apps/DigbyLaret/current/REVISION ] as ubuntu@35.183.131.50
+ DEBUG [7e78c01d] Command: [ -f /home/ubuntu/apps/DigbyLaret/current/REVISION ]
+ DEBUG [7e78c01d] Finished in 0.192 seconds with exit status 1 (failed).
+ DEBUG [8ae5cef2] Running [ -f /home/ubuntu/apps/DigbyLaret/repo/HEAD ] as ubuntu@35.183.131.50
+ DEBUG [8ae5cef2] Command: [ -f /home/ubuntu/apps/DigbyLaret/repo/HEAD ]
+ DEBUG [8ae5cef2] Finished in 0.149 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/ubuntu/apps/DigbyLaret/repo
+ DEBUG [f6748cbf] Running if test ! -d /home/ubuntu/apps/DigbyLaret/repo; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/repo'" 1>&2; false; fi as ubuntu@35.183.131.50
+ DEBUG [f6748cbf] Command: if test ! -d /home/ubuntu/apps/DigbyLaret/repo; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/repo'" 1>&2; false; fi
+ DEBUG [f6748cbf] Finished in 0.191 seconds with exit status 0 (successful).
+  INFO [ff8f7651] Running /usr/bin/env git remote set-url origin https://github.com/RealTerrific/Rocket_Elevators_Foundation as ubuntu@35.183.131.50
+ DEBUG [ff8f7651] Command: cd /home/ubuntu/apps/DigbyLaret/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-21673eb6fb3568c45781.sh" ; /usr/bin/env git remote set-url origin https://github.com/RealTerrific/Rocket_Elevators_Foundation )
+  INFO [ff8f7651] Finished in 0.155 seconds with exit status 0 (successful).
+  INFO [6c0318a7] Running /usr/bin/env git remote update --prune as ubuntu@35.183.131.50
+ DEBUG [6c0318a7] Command: cd /home/ubuntu/apps/DigbyLaret/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-21673eb6fb3568c45781.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [6c0318a7] 	Fetching origin
+  INFO [6c0318a7] Finished in 0.323 seconds with exit status 0 (successful).
+ DEBUG [0de52a32] Running if test ! -d /home/ubuntu/apps/DigbyLaret/repo; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/repo'" 1>&2; false; fi as ubuntu@35.183.131.50
+ DEBUG [0de52a32] Command: if test ! -d /home/ubuntu/apps/DigbyLaret/repo; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/repo'" 1>&2; false; fi
+ DEBUG [0de52a32] Finished in 0.149 seconds with exit status 0 (successful).
+  INFO [fa63951d] Running /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/releases/20220408214907 as ubuntu@35.183.131.50
+ DEBUG [fa63951d] Command: cd /home/ubuntu/apps/DigbyLaret/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-21673eb6fb3568c45781.sh" ; /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/releases/20220408214907 )
+  INFO [fa63951d] Finished in 0.194 seconds with exit status 0 (successful).
+  INFO [202fe78f] Running /usr/bin/env git archive main | /usr/bin/env tar -x -f - -C /home/ubuntu/apps/DigbyLaret/releases/20220408214907 as ubuntu@35.183.131.50
+ DEBUG [202fe78f] Command: cd /home/ubuntu/apps/DigbyLaret/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-21673eb6fb3568c45781.sh" ; /usr/bin/env git archive main | /usr/bin/env tar -x -f - -C /home/ubuntu/apps/DigbyLaret/releases/20220408214907 )
+  INFO [202fe78f] Finished in 1.031 seconds with exit status 0 (successful).
+ DEBUG [ee044480] Running if test ! -d /home/ubuntu/apps/DigbyLaret/repo; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/repo'" 1>&2; false; fi as ubuntu@35.183.131.50
+ DEBUG [ee044480] Command: if test ! -d /home/ubuntu/apps/DigbyLaret/repo; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/repo'" 1>&2; false; fi
+ DEBUG [ee044480] Finished in 0.192 seconds with exit status 0 (successful).
+ DEBUG [e39c7d80] Running /usr/bin/env git rev-list --max-count=1 main as ubuntu@35.183.131.50
+ DEBUG [e39c7d80] Command: cd /home/ubuntu/apps/DigbyLaret/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-21673eb6fb3568c45781.sh" ; /usr/bin/env git rev-list --max-count=1 main )
+ DEBUG [e39c7d80] 	3958d226979dab17d15e8267ae6e5567135701e4
+ DEBUG [e39c7d80] Finished in 0.155 seconds with exit status 0 (successful).
+ DEBUG [d789f217] Running if test ! -d /home/ubuntu/apps/DigbyLaret/releases/20220408214907; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/releases/20220408214907'" 1>&2; false; fi as ubuntu@35.183.131.50
+ DEBUG [d789f217] Command: if test ! -d /home/ubuntu/apps/DigbyLaret/releases/20220408214907; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/releases/20220408214907'" 1>&2; false; fi
+ DEBUG [d789f217] Finished in 0.192 seconds with exit status 0 (successful).
+  INFO [73f0e4c3] Running /usr/bin/env echo "3958d226979dab17d15e8267ae6e5567135701e4" > REVISION as ubuntu@35.183.131.50
+ DEBUG [73f0e4c3] Command: cd /home/ubuntu/apps/DigbyLaret/releases/20220408214907 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env echo "3958d226979dab17d15e8267ae6e5567135701e4" > REVISION )
+  INFO [73f0e4c3] Finished in 0.159 seconds with exit status 0 (successful).
+  INFO [d39ddc7b] Running /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/releases/20220408214907/config as ubuntu@35.183.131.50
+ DEBUG [d39ddc7b] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/releases/20220408214907/config )
+  INFO [d39ddc7b] Finished in 0.200 seconds with exit status 0 (successful).
+ DEBUG [4662da58] Running [ -L /home/ubuntu/apps/DigbyLaret/releases/20220408214907/config/database.yml ] as ubuntu@35.183.131.50
+ DEBUG [4662da58] Command: [ -L /home/ubuntu/apps/DigbyLaret/releases/20220408214907/config/database.yml ]
+ DEBUG [4662da58] Finished in 0.152 seconds with exit status 1 (failed).
+ DEBUG [3c78f0cc] Running [ -f /home/ubuntu/apps/DigbyLaret/releases/20220408214907/config/database.yml ] as ubuntu@35.183.131.50
+ DEBUG [3c78f0cc] Command: [ -f /home/ubuntu/apps/DigbyLaret/releases/20220408214907/config/database.yml ]
+ DEBUG [3c78f0cc] Finished in 0.194 seconds with exit status 0 (successful).
+  INFO [626ec2f7] Running /usr/bin/env rm /home/ubuntu/apps/DigbyLaret/releases/20220408214907/config/database.yml as ubuntu@35.183.131.50
+ DEBUG [626ec2f7] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env rm /home/ubuntu/apps/DigbyLaret/releases/20220408214907/config/database.yml )
+  INFO [626ec2f7] Finished in 0.154 seconds with exit status 0 (successful).
+  INFO [ecc30e92] Running /usr/bin/env ln -s /home/ubuntu/apps/DigbyLaret/shared/config/database.yml /home/ubuntu/apps/DigbyLaret/releases/20220408214907/config/database.yml as ubuntu@35.183.131.50
+ DEBUG [ecc30e92] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env ln -s /home/ubuntu/apps/DigbyLaret/shared/config/database.yml /home/ubuntu/apps/DigbyLaret/releases/20220408214907/config/database.yml )
+  INFO [ecc30e92] Finished in 0.196 seconds with exit status 0 (successful).
+  INFO [9a825216] Running /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/releases/20220408214907/tmp /home/ubuntu/apps/DigbyLaret/releases/20220408214907 /home/ubuntu/apps/DigbyLaret/releases/20220408214907/public as ubuntu@35.183.131.50
+ DEBUG [9a825216] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/releases/20220408214907/tmp /home/ubuntu/apps/DigbyLaret/releases/20220408214907 /home/ubuntu/apps/DigbyLaret/releases/20220408214907/public )
+  INFO [9a825216] Finished in 0.152 seconds with exit status 0 (successful).
+ DEBUG [692642f3] Running [ -L /home/ubuntu/apps/DigbyLaret/releases/20220408214907/tmp/pids ] as ubuntu@35.183.131.50
+ DEBUG [692642f3] Command: [ -L /home/ubuntu/apps/DigbyLaret/releases/20220408214907/tmp/pids ]
+ DEBUG [692642f3] Finished in 0.195 seconds with exit status 1 (failed).
+ DEBUG [29ea6eef] Running [ -d /home/ubuntu/apps/DigbyLaret/releases/20220408214907/tmp/pids ] as ubuntu@35.183.131.50
+ DEBUG [29ea6eef] Command: [ -d /home/ubuntu/apps/DigbyLaret/releases/20220408214907/tmp/pids ]
+ DEBUG [29ea6eef] Finished in 0.151 seconds with exit status 1 (failed).
+  INFO [7e61f408] Running /usr/bin/env ln -s /home/ubuntu/apps/DigbyLaret/shared/tmp/pids /home/ubuntu/apps/DigbyLaret/releases/20220408214907/tmp/pids as ubuntu@35.183.131.50
+ DEBUG [7e61f408] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env ln -s /home/ubuntu/apps/DigbyLaret/shared/tmp/pids /home/ubuntu/apps/DigbyLaret/releases/20220408214907/tmp/pids )
+  INFO [7e61f408] Finished in 0.197 seconds with exit status 0 (successful).
+ DEBUG [b7b1b3c1] Running [ -L /home/ubuntu/apps/DigbyLaret/releases/20220408214907/tmp/sockets ] as ubuntu@35.183.131.50
+ DEBUG [b7b1b3c1] Command: [ -L /home/ubuntu/apps/DigbyLaret/releases/20220408214907/tmp/sockets ]
+ DEBUG [b7b1b3c1] Finished in 0.151 seconds with exit status 1 (failed).
+ DEBUG [2908116d] Running [ -d /home/ubuntu/apps/DigbyLaret/releases/20220408214907/tmp/sockets ] as ubuntu@35.183.131.50
+ DEBUG [2908116d] Command: [ -d /home/ubuntu/apps/DigbyLaret/releases/20220408214907/tmp/sockets ]
+ DEBUG [2908116d] Finished in 0.191 seconds with exit status 1 (failed).
+  INFO [00ce97a9] Running /usr/bin/env ln -s /home/ubuntu/apps/DigbyLaret/shared/tmp/sockets /home/ubuntu/apps/DigbyLaret/releases/20220408214907/tmp/sockets as ubuntu@35.183.131.50
+ DEBUG [00ce97a9] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env ln -s /home/ubuntu/apps/DigbyLaret/shared/tmp/sockets /home/ubuntu/apps/DigbyLaret/releases/20220408214907/tmp/sockets )
+  INFO [00ce97a9] Finished in 0.158 seconds with exit status 0 (successful).
+ DEBUG [78ecf84c] Running [ -L /home/ubuntu/apps/DigbyLaret/releases/20220408214907/log ] as ubuntu@35.183.131.50
+ DEBUG [78ecf84c] Command: [ -L /home/ubuntu/apps/DigbyLaret/releases/20220408214907/log ]
+ DEBUG [78ecf84c] Finished in 0.193 seconds with exit status 1 (failed).
+ DEBUG [6e62cd53] Running [ -d /home/ubuntu/apps/DigbyLaret/releases/20220408214907/log ] as ubuntu@35.183.131.50
+ DEBUG [6e62cd53] Command: [ -d /home/ubuntu/apps/DigbyLaret/releases/20220408214907/log ]
+ DEBUG [6e62cd53] Finished in 0.151 seconds with exit status 0 (successful).
+  INFO [b6c230d5] Running /usr/bin/env rm -rf /home/ubuntu/apps/DigbyLaret/releases/20220408214907/log as ubuntu@35.183.131.50
+ DEBUG [b6c230d5] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env rm -rf /home/ubuntu/apps/DigbyLaret/releases/20220408214907/log )
+  INFO [b6c230d5] Finished in 0.196 seconds with exit status 0 (successful).
+  INFO [ef08eb62] Running /usr/bin/env ln -s /home/ubuntu/apps/DigbyLaret/shared/log /home/ubuntu/apps/DigbyLaret/releases/20220408214907/log as ubuntu@35.183.131.50
+ DEBUG [ef08eb62] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env ln -s /home/ubuntu/apps/DigbyLaret/shared/log /home/ubuntu/apps/DigbyLaret/releases/20220408214907/log )
+  INFO [ef08eb62] Finished in 0.141 seconds with exit status 0 (successful).
+ DEBUG [bd6a9586] Running [ -L /home/ubuntu/apps/DigbyLaret/releases/20220408214907/public/assets ] as ubuntu@35.183.131.50
+ DEBUG [bd6a9586] Command: [ -L /home/ubuntu/apps/DigbyLaret/releases/20220408214907/public/assets ]
+ DEBUG [bd6a9586] Finished in 0.196 seconds with exit status 1 (failed).
+ DEBUG [f531607e] Running [ -d /home/ubuntu/apps/DigbyLaret/releases/20220408214907/public/assets ] as ubuntu@35.183.131.50
+ DEBUG [f531607e] Command: [ -d /home/ubuntu/apps/DigbyLaret/releases/20220408214907/public/assets ]
+ DEBUG [f531607e] Finished in 0.152 seconds with exit status 1 (failed).
+  INFO [15314640] Running /usr/bin/env ln -s /home/ubuntu/apps/DigbyLaret/shared/public/assets /home/ubuntu/apps/DigbyLaret/releases/20220408214907/public/assets as ubuntu@35.183.131.50
+ DEBUG [15314640] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env ln -s /home/ubuntu/apps/DigbyLaret/shared/public/assets /home/ubuntu/apps/DigbyLaret/releases/20220408214907/public/assets )
+  INFO [15314640] Finished in 0.197 seconds with exit status 0 (successful).
+ DEBUG [147b0b98] Running if test ! -d /home/ubuntu/apps/DigbyLaret/releases/20220408214907; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/releases/20220408214907'" 1>&2; false; fi as ubuntu@35.183.131.50
+ DEBUG [147b0b98] Command: if test ! -d /home/ubuntu/apps/DigbyLaret/releases/20220408214907; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/releases/20220408214907'" 1>&2; false; fi
+ DEBUG [147b0b98] Finished in 0.149 seconds with exit status 0 (successful).
+  INFO [0f13f1b5] Running RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle config --local deployment true as ubuntu@35.183.131.50
+ DEBUG [0f13f1b5] Command: cd /home/ubuntu/apps/DigbyLaret/releases/20220408214907 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle config --local deployment true )
+  INFO [0f13f1b5] Finished in 0.417 seconds with exit status 0 (successful).
+  INFO [3de729e8] Running RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle config --local path /home/ubuntu/apps/DigbyLaret/shared/bundle as ubuntu@35.183.131.50
+ DEBUG [3de729e8] Command: cd /home/ubuntu/apps/DigbyLaret/releases/20220408214907 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle config --local path /home/ubuntu/apps/DigbyLaret/shared/bundle )
+  INFO [3de729e8] Finished in 0.366 seconds with exit status 0 (successful).
+  INFO [55555b70] Running RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle config --local without production as ubuntu@35.183.131.50
+ DEBUG [55555b70] Command: cd /home/ubuntu/apps/DigbyLaret/releases/20220408214907 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle config --local without production )
+  INFO [55555b70] Finished in 0.407 seconds with exit status 0 (successful).
+ DEBUG [9b9e50c8] Running if test ! -d /home/ubuntu/apps/DigbyLaret/releases/20220408214907; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/releases/20220408214907'" 1>&2; false; fi as ubuntu@35.183.131.50
+ DEBUG [9b9e50c8] Command: if test ! -d /home/ubuntu/apps/DigbyLaret/releases/20220408214907; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/releases/20220408214907'" 1>&2; false; fi
+ DEBUG [9b9e50c8] Finished in 0.150 seconds with exit status 0 (successful).
+ DEBUG [8a8ad7d1] Running RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle check as ubuntu@35.183.131.50
+ DEBUG [8a8ad7d1] Command: cd /home/ubuntu/apps/DigbyLaret/releases/20220408214907 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle check )
+ DEBUG [8a8ad7d1] 	The Gemfile's dependencies are satisfied
+ DEBUG [8a8ad7d1] Finished in 1.500 seconds with exit status 0 (successful).
+  INFO The Gemfile's dependencies are satisfied, skipping installation
+ DEBUG [bd0a242d] Running if test ! -d /home/ubuntu/apps/DigbyLaret/releases/20220408214907; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/releases/20220408214907'" 1>&2; false; fi as ubuntu@35.183.131.50
+ DEBUG [bd0a242d] Command: if test ! -d /home/ubuntu/apps/DigbyLaret/releases/20220408214907; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/releases/20220408214907'" 1>&2; false; fi
+ DEBUG [bd0a242d] Finished in 0.151 seconds with exit status 0 (successful).
+  INFO [21a7da84] Running RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle exec rake assets:precompile as ubuntu@35.183.131.50
+ DEBUG [21a7da84] Command: cd /home/ubuntu/apps/DigbyLaret/releases/20220408214907 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" RAILS_ENV="development" RAILS_GROUPS="" ; RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle exec rake assets:precompile )
+ DEBUG [21a7da84] 	W, [2022-04-08T21:49:29.156295 #710410]  WARN -- : Removed sourceMappingURL comment for missing asset 'bootstrap.min.js.map' from /home/ubuntu/apps/DigbyLaret/releases/20220408214907/app/assets/javascripts/bootstrap.min.js
+ DEBUG [21a7da84] 	W, [2022-04-08T21:49:29.164879 #710410]  WARN -- : Removed sourceMappingURL comment for missing asset 'popper.min.js.map' from /home/ubuntu/apps/DigbyLaret/releases/20220408214907/app/assets/javascripts/scripts.js
+ DEBUG [21a7da84] 	W, [2022-04-08T21:49:29.233172 #710410]  WARN -- : Removed sourceMappingURL comment for missing asset 'plugins/bootstrap/js/bootstrap.min.js.map' from /home/ubuntu/apps/DigbyLaret/releases/20220408214907/app/assets/javascripts/plugins/bootstrap/js/bootstrap.min.js
+ DEBUG [21a7da84] 	autoprefixer: /home/ubuntu/apps/DigbyLaret/releases/20220408214907/app/assets/stylesheets/application.scss:14037:3: Gradient has outdated direction syntax. New syntax is like `to left` instead of `right`.
+autoprefixer: /home/ubuntu/apps/DigbyLaret/releases/20220408214907/app/assets/stylesheets/application.scss:19886:3: Gradient has outdated direction syntax. New syntax is like `to left` instead of `right`.
+autoprefixer: /home/ubuntu/apps/DigbyLaret/releases/20220408214907/app/assets/stylesheets/application.scss:19899:3: Gradient has outdated direction syntax. New syntax is like `to left` instead of `right`.
+ DEBUG [21a7da84] 	I, [2022-04-08T21:49:52.455334 #710410]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408214907/public/assets/application-72db2d5b918a180c450e2a77c9d3c481b2c6273e8c8723ebba0f5abbc34abd1f.css
+ DEBUG [21a7da84] 	I, [2022-04-08T21:49:52.455719 #710410]  INFO -- : Writing /home/ubuntu/apps/DigbyLaret/releases/20220408214907/public/assets/application-72db2d5b918a180c450e2a77c9d3c481b2c6273e8c8723ebba0f5abbc34abd1f.css.gz
+  INFO [21a7da84] Finished in 38.013 seconds with exit status 0 (successful).
+ DEBUG [5c28f584] Running if test ! -d /home/ubuntu/apps/DigbyLaret/releases/20220408214907; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/releases/20220408214907'" 1>&2; false; fi as ubuntu@35.183.131.50
+ DEBUG [5c28f584] Command: if test ! -d /home/ubuntu/apps/DigbyLaret/releases/20220408214907; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/releases/20220408214907'" 1>&2; false; fi
+ DEBUG [5c28f584] Finished in 0.154 seconds with exit status 0 (successful).
+  INFO [e103ffde] Running /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/releases/20220408214907/assets_manifest_backup as ubuntu@35.183.131.50
+ DEBUG [e103ffde] Command: cd /home/ubuntu/apps/DigbyLaret/releases/20220408214907 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env mkdir -p /home/ubuntu/apps/DigbyLaret/releases/20220408214907/assets_manifest_backup )
+  INFO [e103ffde] Finished in 0.198 seconds with exit status 0 (successful).
+ DEBUG [fce7ddbb] Running /usr/bin/env ls /home/ubuntu/apps/DigbyLaret/releases/20220408214907/public/assets/.sprockets-manifest* as ubuntu@35.183.131.50
+ DEBUG [fce7ddbb] Command: cd /home/ubuntu/apps/DigbyLaret/releases/20220408214907 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env ls /home/ubuntu/apps/DigbyLaret/releases/20220408214907/public/assets/.sprockets-manifest* )
+ DEBUG [fce7ddbb] 	/home/ubuntu/apps/DigbyLaret/releases/20220408214907/public/assets/.sprockets-manifest-b0188159fe5b141305f2b575cce39c45.json
+ DEBUG [fce7ddbb] Finished in 0.151 seconds with exit status 0 (successful).
+ DEBUG [d71b6ce5] Running /usr/bin/env ls /home/ubuntu/apps/DigbyLaret/releases/20220408214907/public/assets/.sprockets-manifest* as ubuntu@35.183.131.50
+ DEBUG [d71b6ce5] Command: cd /home/ubuntu/apps/DigbyLaret/releases/20220408214907 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env ls /home/ubuntu/apps/DigbyLaret/releases/20220408214907/public/assets/.sprockets-manifest* )
+ DEBUG [d71b6ce5] 	/home/ubuntu/apps/DigbyLaret/releases/20220408214907/public/assets/.sprockets-manifest-b0188159fe5b141305f2b575cce39c45.json
+ DEBUG [d71b6ce5] Finished in 0.195 seconds with exit status 0 (successful).
+  INFO [fa9d41df] Running /usr/bin/env cp /home/ubuntu/apps/DigbyLaret/releases/20220408214907/public/assets/.sprockets-manifest-b0188159fe5b141305f2b575cce39c45.json /home/ubuntu/apps/DigbyLaret/releases/20220408214907/assets_manifest_backup as ubuntu@35.183.131.50
+ DEBUG [fa9d41df] Command: cd /home/ubuntu/apps/DigbyLaret/releases/20220408214907 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env cp /home/ubuntu/apps/DigbyLaret/releases/20220408214907/public/assets/.sprockets-manifest-b0188159fe5b141305f2b575cce39c45.json /home/ubuntu/apps/DigbyLaret/releases/20220408214907/assets_manifest_backup )
+  INFO [fa9d41df] Finished in 0.155 seconds with exit status 0 (successful).
+  INFO [deploy:migrate] Run `rake db:migrate`
+ DEBUG [140a397d] Running if test ! -d /home/ubuntu/apps/DigbyLaret/releases/20220408214907; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/releases/20220408214907'" 1>&2; false; fi as ubuntu@35.183.131.50
+ DEBUG [140a397d] Command: if test ! -d /home/ubuntu/apps/DigbyLaret/releases/20220408214907; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/releases/20220408214907'" 1>&2; false; fi
+ DEBUG [140a397d] Finished in 0.189 seconds with exit status 0 (successful).
+  INFO [4a32ed05] Running RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle exec rake db:migrate as ubuntu@35.183.131.50
+ DEBUG [4a32ed05] Command: cd /home/ubuntu/apps/DigbyLaret/releases/20220408214907 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" RAILS_ENV="development" ; RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle exec rake db:migrate )
+ DEBUG [4a32ed05] 	== 20220309134108 CreateEmployees: migrating ==================================
+ DEBUG [4a32ed05] 	-- create_table(:employees)
+ DEBUG [4a32ed05] 	   -> 0.0347s
+== 20220309134108 CreateEmployees: migrated (0.0348s) =========================
+
+ DEBUG [4a32ed05] 	== 20220309134128 CreateQuotes: migrating =====================================
+-- create_table(:quotes)
+ DEBUG [4a32ed05] 	   -> 0.0423s
+== 20220309134128 CreateQuotes: migrated (0.0424s) ============================
+
+ DEBUG [4a32ed05] 	== 20220310170109 CreateActiveAdminComments: migrating ========================
+ DEBUG [4a32ed05] 	-- create_table(:active_admin_comments)
+ DEBUG [4a32ed05] 	   -> 0.0689s
+-- add_index(:active_admin_comments, [:namespace])
+ DEBUG [4a32ed05] 	   -> 0.0641s
+== 20220310170109 CreateActiveAdminComments: migrated (0.1332s) ===============
+
+ DEBUG [4a32ed05] 	== 20220311205002 DeviseCreateUsers: migrating ================================
+-- create_table(:users)
+ DEBUG [4a32ed05] 	   -> 0.0401s
+-- add_index(:users, :email, {:unique=>true})
+ DEBUG [4a32ed05] 	   -> 0.0618s
+-- add_index(:users, :reset_password_token, {:unique=>true})
+ DEBUG [4a32ed05] 	   -> 0.0605s
+== 20220311205002 DeviseCreateUsers: migrated (0.1626s) =======================
+
+ DEBUG [4a32ed05] 	== 20220311205005 AddEmployeeToUser: migrating ================================
+-- add_reference(:employees, :user, {:foreign_key=>true})
+ DEBUG [4a32ed05] 	   -> 0.1669s
+== 20220311205005 AddEmployeeToUser: migrated (0.1670s) =======================
+
+ DEBUG [4a32ed05] 	== 20220311212529 DeviseCreateAdminUsers: migrating ===========================
+-- create_table(:admin_users)
+ DEBUG [4a32ed05] 	   -> 0.0359s
+-- add_index(:admin_users, :email, {:unique=>true})
+ DEBUG [4a32ed05] 	   -> 0.0604s
+-- add_index(:admin_users, :reset_password_token, {:unique=>true})
+ DEBUG [4a32ed05] 	   -> 0.0622s
+ DEBUG [4a32ed05] 	== 20220311212529 DeviseCreateAdminUsers: migrated (0.1587s) ==================
+
+ DEBUG [4a32ed05] 	== 20220315152406 CreateLeads: migrating ======================================
+-- create_table(:leads)
+ DEBUG [4a32ed05] 	   -> 0.0347s
+== 20220315152406 CreateLeads: migrated (0.0348s) =============================
+
+ DEBUG [4a32ed05] 	== 20220315153455 CreateAddresses: migrating ==================================
+-- create_table(:addresses)
+ DEBUG [4a32ed05] 	   -> 0.0363s
+== 20220315153455 CreateAddresses: migrated (0.0364s) =========================
+
+ DEBUG [4a32ed05] 	== 20220315153932 CreateCustomers: migrating ==================================
+-- create_table(:customers)
+ DEBUG [4a32ed05] 	   -> 0.0440s
+== 20220315153932 CreateCustomers: migrated (0.0440s) =========================
+
+ DEBUG [4a32ed05] 	== 20220315155237 CreateBuildings: migrating ==================================
+-- create_table(:buildings)
+ DEBUG [4a32ed05] 	   -> 0.0347s
+== 20220315155237 CreateBuildings: migrated (0.0348s) =========================
+
+ DEBUG [4a32ed05] 	== 20220315155500 CreateBatteries: migrating ==================================
+ DEBUG [4a32ed05] 	-- create_table(:batteries)
+ DEBUG [4a32ed05] 	   -> 0.0329s
+== 20220315155500 CreateBatteries: migrated (0.0330s) =========================
+
+ DEBUG [4a32ed05] 	== 20220315155646 CreateColumns: migrating ====================================
+ DEBUG [4a32ed05] 	-- create_table(:columns)
+ DEBUG [4a32ed05] 	   -> 0.0347s
+== 20220315155646 CreateColumns: migrated (0.0348s) ===========================
+
+ DEBUG [4a32ed05] 	== 20220315155850 CreateElevators: migrating ==================================
+ DEBUG [4a32ed05] 	-- create_table(:elevators)
+ DEBUG [4a32ed05] 	   -> 0.0345s
+== 20220315155850 CreateElevators: migrated (0.0346s) =========================
+
+ DEBUG [4a32ed05] 	== 20220315193251 CreateBuildingDetails: migrating ============================
+-- create_table(:building_details)
+ DEBUG [4a32ed05] 	   -> 0.0332s
+== 20220315193251 CreateBuildingDetails: migrated (0.0332s) ===================
+
+ DEBUG [4a32ed05] 	== 20220316153816 RemoveColumnIdFromElevator: migrating =======================
+ DEBUG [4a32ed05] 	-- remove_column(:elevators, :column_id, :string)
+ DEBUG [4a32ed05] 	   -> 0.0563s
+== 20220316153816 RemoveColumnIdFromElevator: migrated (0.0564s) ==============
+
+ DEBUG [4a32ed05] 	== 20220316154535 AddColumnToElevators: migrating =============================
+ DEBUG [4a32ed05] 	-- add_reference(:elevators, :column)
+ DEBUG [4a32ed05] 	   -> 0.1040s
+== 20220316154535 AddColumnToElevators: migrated (0.1041s) ====================
+
+ DEBUG [4a32ed05] 	== 20220316155032 AddForeignKeyToElevator: migrating ==========================
+-- add_foreign_key(:elevators, :columns)
+ DEBUG [4a32ed05] 	   -> 0.0549s
+== 20220316155032 AddForeignKeyToElevator: migrated (0.0550s) =================
+
+ DEBUG [4a32ed05] 	== 20220316155937 RemoveBatteryIdFromColumn: migrating ========================
+-- remove_column(:columns, :battery_id, :string)
+ DEBUG [4a32ed05] 	   -> 0.0653s
+== 20220316155937 RemoveBatteryIdFromColumn: migrated (0.0654s) ===============
+
+ DEBUG [4a32ed05] 	== 20220316160232 AddBatteryToColumns: migrating ==============================
+-- add_reference(:columns, :battery)
+ DEBUG [4a32ed05] 	   -> 0.1046s
+== 20220316160232 AddBatteryToColumns: migrated (0.1047s) =====================
+
+ DEBUG [4a32ed05] 	== 20220316160445 AddForeignKeyToColumn: migrating ============================
+-- add_foreign_key(:columns, :batteries)
+ DEBUG [4a32ed05] 	   -> 0.0539s
+== 20220316160445 AddForeignKeyToColumn: migrated (0.0539s) ===================
+
+ DEBUG [4a32ed05] 	== 20220316161009 RemoveBuildingIdFromBattery: migrating ======================
+ DEBUG [4a32ed05] 	-- remove_column(:batteries, :building_id, :string)
+ DEBUG [4a32ed05] 	   -> 0.0615s
+== 20220316161009 RemoveBuildingIdFromBattery: migrated (0.0617s) =============
+
+ DEBUG [4a32ed05] 	== 20220316161240 RemoveEmployeeIdFromBattery: migrating ======================
+-- remove_column(:batteries, :employee_id, :string)
+ DEBUG [4a32ed05] 	   -> 0.0641s
+== 20220316161240 RemoveEmployeeIdFromBattery: migrated (0.0641s) =============
+
+ DEBUG [4a32ed05] 	== 20220316172701 AddBuildingToBatteries: migrating ===========================
+-- add_reference(:batteries, :building)
+ DEBUG [4a32ed05] 	   -> 0.1059s
+== 20220316172701 AddBuildingToBatteries: migrated (0.1060s) ==================
+
+ DEBUG [4a32ed05] 	== 20220316172942 AddforeignKeyToBattery: migrating ===========================
+ DEBUG [4a32ed05] 	-- add_foreign_key(:batteries, :buildings)
+ DEBUG [4a32ed05] 	   -> 0.0609s
+== 20220316172942 AddforeignKeyToBattery: migrated (0.0609s) ==================
+
+ DEBUG [4a32ed05] 	== 20220316173345 AddEmployeeToBatteries: migrating ===========================
+ DEBUG [4a32ed05] 	-- add_reference(:batteries, :employee)
+ DEBUG [4a32ed05] 	   -> 0.1111s
+== 20220316173345 AddEmployeeToBatteries: migrated (0.1112s) ==================
+
+ DEBUG [4a32ed05] 	== 20220316173617 AddForeignKeyToBattery: migrating ===========================
+ DEBUG [4a32ed05] 	-- add_foreign_key(:batteries, :employees)
+ DEBUG [4a32ed05] 	   -> 0.0559s
+== 20220316173617 AddForeignKeyToBattery: migrated (0.0560s) ==================
+
+ DEBUG [4a32ed05] 	== 20220316174528 RemoveCustomerIdFromBuilding: migrating =====================
+ DEBUG [4a32ed05] 	-- remove_column(:buildings, :customer_id, :string)
+ DEBUG [4a32ed05] 	   -> 0.0590s
+== 20220316174528 RemoveCustomerIdFromBuilding: migrated (0.0591s) ============
+
+ DEBUG [4a32ed05] 	== 20220316175655 AddCustomerToBuildings: migrating ===========================
+ DEBUG [4a32ed05] 	-- add_reference(:buildings, :customer)
+ DEBUG [4a32ed05] 	   -> 0.1080s
+== 20220316175655 AddCustomerToBuildings: migrated (0.1081s) ==================
+
+ DEBUG [4a32ed05] 	== 20220316180106 AddForeignKeyToBuilding: migrating ==========================
+-- add_foreign_key(:buildings, :customers)
+ DEBUG [4a32ed05] 	   -> 0.0531s
+== 20220316180106 AddForeignKeyToBuilding: migrated (0.0532s) =================
+
+ DEBUG [4a32ed05] 	== 20220316180529 RemoveBuildingIdFromBuildingDetails: migrating ==============
+ DEBUG [4a32ed05] 	-- remove_column(:building_details, :building_id, :string)
+ DEBUG [4a32ed05] 	   -> 0.0598s
+== 20220316180529 RemoveBuildingIdFromBuildingDetails: migrated (0.0599s) =====
+
+ DEBUG [4a32ed05] 	== 20220316180807 AddBuildingToBuildingDetails: migrating =====================
+-- add_reference(:building_details, :building)
+ DEBUG [4a32ed05] 	   -> 0.1087s
+== 20220316180807 AddBuildingToBuildingDetails: migrated (0.1088s) ============
+
+ DEBUG [4a32ed05] 	== 20220316181016 AddForeignKeyToBuildingDetails: migrating ===================
+ DEBUG [4a32ed05] 	-- add_foreign_key(:building_details, :buildings)
+ DEBUG [4a32ed05] 	   -> 0.0484s
+== 20220316181016 AddForeignKeyToBuildingDetails: migrated (0.0485s) ==========
+
+ DEBUG [4a32ed05] 	== 20220316182347 RemoveBuildingAddressFromBuildings: migrating ===============
+-- remove_column(:buildings, :building_address, :string)
+ DEBUG [4a32ed05] 	   -> 0.0603s
+== 20220316182347 RemoveBuildingAddressFromBuildings: migrated (0.0604s) ======
+
+ DEBUG [4a32ed05] 	== 20220316182459 AddAddressToBuildings: migrating ============================
+ DEBUG [4a32ed05] 	-- add_reference(:buildings, :address)
+ DEBUG [4a32ed05] 	   -> 0.1129s
+== 20220316182459 AddAddressToBuildings: migrated (0.1130s) ===================
+
+ DEBUG [4a32ed05] 	== 20220316182743 AddforeignKeyToBuildings: migrating =========================
+-- add_foreign_key(:buildings, :addresses)
+ DEBUG [4a32ed05] 	   -> 0.0624s
+== 20220316182743 AddforeignKeyToBuildings: migrated (0.0625s) ================
+
+ DEBUG [4a32ed05] 	== 20220316183212 RemoveHqAddressFromCustomers: migrating =====================
+ DEBUG [4a32ed05] 	-- remove_column(:customers, :hq_address, :string)
+ DEBUG [4a32ed05] 	   -> 0.0565s
+== 20220316183212 RemoveHqAddressFromCustomers: migrated (0.0566s) ============
+
+ DEBUG [4a32ed05] 	== 20220316183249 RemoveUserIdFromCustomers: migrating ========================
+ DEBUG [4a32ed05] 	-- remove_column(:customers, :user_id, :string)
+ DEBUG [4a32ed05] 	   -> 0.0638s
+== 20220316183249 RemoveUserIdFromCustomers: migrated (0.0638s) ===============
+
+ DEBUG [4a32ed05] 	== 20220316183519 AddAddressToCustomers: migrating ============================
+-- add_reference(:customers, :address)
+ DEBUG [4a32ed05] 	   -> 0.1072s
+== 20220316183519 AddAddressToCustomers: migrated (0.1073s) ===================
+
+ DEBUG [4a32ed05] 	== 20220316183648 AddForeignKeyToCustomers: migrating =========================
+-- add_foreign_key(:customers, :addresses)
+ DEBUG [4a32ed05] 	   -> 0.0668s
+== 20220316183648 AddForeignKeyToCustomers: migrated (0.0669s) ================
+
+ DEBUG [4a32ed05] 	== 20220316184932 AddUserToCustomers: migrating ===============================
+-- add_reference(:customers, :user)
+ DEBUG [4a32ed05] 	   -> 0.1132s
+== 20220316184932 AddUserToCustomers: migrated (0.1133s) ======================
+
+ DEBUG [4a32ed05] 	== 20220316185341 AddForeignKeyToCustomers2: migrating ========================
+-- add_foreign_key(:customers, :users)
+ DEBUG [4a32ed05] 	   -> 0.0569s
+== 20220316185341 AddForeignKeyToCustomers2: migrated (0.0570s) ===============
+
+ DEBUG [4a32ed05] 	== 20220316185851 RenameTypeToBuildingTypeInElevators: migrating ==============
+-- rename_column(:elevators, :type, :building_type)
+ DEBUG [4a32ed05] 	   -> 0.0710s
+== 20220316185851 RenameTypeToBuildingTypeInElevators: migrated (0.0711s) =====
+
+ DEBUG [4a32ed05] 	== 20220316190216 RenameTypeToBuildingTypeInColumns: migrating ================
+ DEBUG [4a32ed05] 	-- rename_column(:columns, :type, :building_type)
+ DEBUG [4a32ed05] 	   -> 0.0708s
+== 20220316190216 RenameTypeToBuildingTypeInColumns: migrated (0.0709s) =======
+
+ DEBUG [4a32ed05] 	== 20220316190328 RenameTypeToBuildingTypeInBatteries: migrating ==============
+-- rename_column(:batteries, :type, :building_type)
+ DEBUG [4a32ed05] 	   -> 0.0716s
+== 20220316190328 RenameTypeToBuildingTypeInBatteries: migrated (0.0717s) =====
+
+ DEBUG [4a32ed05] 	== 20220317134909 RenameTypeToTypeOfAddressInAddresses: migrating =============
+-- rename_column(:addresses, :type, :type_of_address)
+ DEBUG [4a32ed05] 	   -> 0.0697s
+== 20220317134909 RenameTypeToTypeOfAddressInAddresses: migrated (0.0698s) ====
+
+ DEBUG [4a32ed05] 	== 20220318142954 InstallBlazer: migrating ====================================
+-- create_table(:blazer_queries)
+ DEBUG [4a32ed05] 	   -> 0.1030s
+-- create_table(:blazer_audits)
+ DEBUG [4a32ed05] 	   -> 0.1566s
+-- create_table(:blazer_dashboards)
+ DEBUG [4a32ed05] 	   -> 0.0542s
+-- create_table(:blazer_dashboard_queries)
+ DEBUG [4a32ed05] 	   -> 0.0727s
+-- create_table(:blazer_checks)
+ DEBUG [4a32ed05] 	   -> 0.0943s
+== 20220318142954 InstallBlazer: migrated (0.4811s) ===========================
+
+ DEBUG [4a32ed05] 	== 20220318174447 AddDateCreatedToQuotes: migrating ===========================
+-- add_column(:quotes, :date_created, :string)
+ DEBUG [4a32ed05] 	   -> 0.0463s
+== 20220318174447 AddDateCreatedToQuotes: migrated (0.0464s) ==================
+
+ DEBUG [4a32ed05] 	== 20220318211807 AddColumnsToQuotes: migrating ===============================
+-- add_column(:quotes, :company_name, :string)
+ DEBUG [4a32ed05] 	   -> 0.0598s
+-- add_column(:quotes, :company_email, :string)
+ DEBUG [4a32ed05] 	   -> 0.0447s
+-- add_column(:quotes, :contact_name, :string)
+ DEBUG [4a32ed05] 	   -> 0.0399s
+== 20220318211807 AddColumnsToQuotes: migrated (0.1446s) ======================
+
+ DEBUG [4a32ed05] 	== 20220318222426 RenameCompanyEmailToContactEmailInQuotes: migrating =========
+ DEBUG [4a32ed05] 	-- rename_column(:quotes, :company_email, :contact_email)
+ DEBUG [4a32ed05] 	   -> 0.0705s
+== 20220318222426 RenameCompanyEmailToContactEmailInQuotes: migrated (0.0705s) 
+
+ DEBUG [4a32ed05] 	== 20220323125617 AddLatAndLngToAddresses: migrating ==========================
+ DEBUG [4a32ed05] 	-- add_column(:addresses, :lat, :decimal, {:precision=>10, :scale=>6})
+ DEBUG [4a32ed05] 	   -> 0.0423s
+-- add_column(:addresses, :lng, :decimal, {:precision=>10, :scale=>6})
+ DEBUG [4a32ed05] 	   -> 0.0413s
+== 20220323125617 AddLatAndLngToAddresses: migrated (0.0837s) =================
+
+ DEBUG [4a32ed05] 	== 20220323133651 ChangeLatAndLngToStringInAddresses: migrating ===============
+-- change_column(:addresses, :lat, :string)
+ DEBUG [4a32ed05] 	   -> 0.0650s
+-- change_column(:addresses, :lng, :string)
+ DEBUG [4a32ed05] 	   -> 0.0637s
+== 20220323133651 ChangeLatAndLngToStringInAddresses: migrated (0.1289s) ======
+
+ DEBUG [4a32ed05] 	== 20220325183519 AddFileNameToLeads: migrating ===============================
+ DEBUG [4a32ed05] 	-- add_column(:leads, :filename, :string)
+ DEBUG [4a32ed05] 	   -> 0.0412s
+== 20220325183519 AddFileNameToLeads: migrated (0.0413s) ======================
+
+ DEBUG [4a32ed05] 	== 20220404152006 CreateInterventions: migrating ==============================
+ DEBUG [4a32ed05] 	-- create_table(:interventions)
+ DEBUG [4a32ed05] 	   -> 0.0374s
+== 20220404152006 CreateInterventions: migrated (0.0375s) =====================
+
+ DEBUG [4a32ed05] 	== 20220404152227 AddingColumnsToInterventions: migrating =====================
+ DEBUG [4a32ed05] 	-- add_reference(:interventions, :customer, {:foreign_key=>true})
+ DEBUG [4a32ed05] 	   -> 0.1679s
+-- add_reference(:interventions, :battery, {:foreign_key=>true})
+ DEBUG [4a32ed05] 	   -> 0.1647s
+-- add_reference(:interventions, :building, {:foreign_key=>true})
+ DEBUG [4a32ed05] 	   -> 0.1648s
+-- add_reference(:interventions, :employee, {:foreign_key=>true})
+ DEBUG [4a32ed05] 	   -> 0.3413s
+-- add_reference(:interventions, :column, {:foreign_key=>true})
+ DEBUG [4a32ed05] 	   -> 0.1731s
+-- add_reference(:interventions, :elevator, {:foreign_key=>true})
+ DEBUG [4a32ed05] 	   -> 0.1809s
+== 20220404152227 AddingColumnsToInterventions: migrated (1.1931s) ============
+
+ DEBUG [4a32ed05] 	== 20220404185937 AddAuthorToInterventions: migrating =========================
+-- add_reference(:interventions, :author, {:foreign_key=>{:to_table=>:employees}})
+ DEBUG [4a32ed05] 	   -> 0.1867s
+== 20220404185937 AddAuthorToInterventions: migrated (0.1868s) ================
+
+ DEBUG [4a32ed05] 	== 20220316145812 CreateDimCustomers: migrating ===============================
+ DEBUG [4a32ed05] 	-- create_table(:dim_customers)
+ DEBUG [4a32ed05] 	   -> 0.0223s
+== 20220316145812 CreateDimCustomers: migrated (0.0224s) ======================
+
+ DEBUG [4a32ed05] 	== 20220316150118 CreateFactElevator: migrating ===============================
+-- create_table(:fact_elevators)
+ DEBUG [4a32ed05] 	   -> 0.0207s
+== 20220316150118 CreateFactElevator: migrated (0.0207s) ======================
+
+ DEBUG [4a32ed05] 	== 20220318203124 CreateFactQuotes: migrating =================================
+-- create_table(:fact_quotes)
+ DEBUG [4a32ed05] 	   -> 0.0206s
+== 20220318203124 CreateFactQuotes: migrated (0.0206s) ========================
+
+ DEBUG [4a32ed05] 	== 20220318203222 CreateFactContacts: migrating ===============================
+-- create_table(:fact_contacts)
+ DEBUG [4a32ed05] 	   -> 0.0213s
+== 20220318203222 CreateFactContacts: migrated (0.0213s) ======================
+
+ DEBUG [4a32ed05] 	== 20220328141359 CreateFactIntervention: migrating ===========================
+ DEBUG [4a32ed05] 	-- create_table(:fact_interventions)
+ DEBUG [4a32ed05] 	   -> 0.0211s
+== 20220328141359 CreateFactIntervention: migrated (0.0211s) ==================
+
+  INFO [4a32ed05] Finished in 16.878 seconds with exit status 0 (successful).
+  INFO [2a6988fc] Running /usr/bin/env ln -s /home/ubuntu/apps/DigbyLaret/releases/20220408214907 /home/ubuntu/apps/DigbyLaret/releases/current as ubuntu@35.183.131.50
+ DEBUG [2a6988fc] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env ln -s /home/ubuntu/apps/DigbyLaret/releases/20220408214907 /home/ubuntu/apps/DigbyLaret/releases/current )
+  INFO [2a6988fc] Finished in 0.192 seconds with exit status 0 (successful).
+  INFO [5769dc2e] Running /usr/bin/env mv /home/ubuntu/apps/DigbyLaret/releases/current /home/ubuntu/apps/DigbyLaret as ubuntu@35.183.131.50
+ DEBUG [5769dc2e] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env mv /home/ubuntu/apps/DigbyLaret/releases/current /home/ubuntu/apps/DigbyLaret )
+  INFO [5769dc2e] Finished in 0.156 seconds with exit status 0 (successful).
+ DEBUG [1d6f75ed] Running /usr/bin/env ls -x /home/ubuntu/apps/DigbyLaret/releases as ubuntu@35.183.131.50
+ DEBUG [1d6f75ed] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env ls -x /home/ubuntu/apps/DigbyLaret/releases )
+ DEBUG [1d6f75ed] 	20220408213803	20220408214430	20220408214907
+ DEBUG [1d6f75ed] Finished in 0.193 seconds with exit status 0 (successful).
+ DEBUG [87dbde19] Running if test ! -d /home/ubuntu/apps/DigbyLaret/releases; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/releases'" 1>&2; false; fi as ubuntu@35.183.131.50
+ DEBUG [87dbde19] Command: if test ! -d /home/ubuntu/apps/DigbyLaret/releases; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/releases'" 1>&2; false; fi
+ DEBUG [87dbde19] Finished in 0.150 seconds with exit status 0 (successful).
+  INFO [74713dcf] Running /usr/bin/env echo "Branch main (at 3958d226979dab17d15e8267ae6e5567135701e4) deployed as release 20220408214907 by realterrific" >> /home/ubuntu/apps/DigbyLaret/revisions.log as ubuntu@35.183.131.50
+ DEBUG [74713dcf] Command: cd /home/ubuntu/apps/DigbyLaret/releases && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env echo "Branch main (at 3958d226979dab17d15e8267ae6e5567135701e4) deployed as release 20220408214907 by realterrific" >> /home/ubuntu/apps/DigbyLaret/revisions.log )
+  INFO [74713dcf] Finished in 0.198 seconds with exit status 0 (successful).
+ DEBUG [65fea755] Running if test ! -d /home/ubuntu/apps/DigbyLaret/current; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/current'" 1>&2; false; fi as ubuntu@35.183.131.50
+ DEBUG [65fea755] Command: if test ! -d /home/ubuntu/apps/DigbyLaret/current; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/current'" 1>&2; false; fi
+ DEBUG [65fea755] Finished in 0.149 seconds with exit status 0 (successful).
+ DEBUG [829d12d6] Running [ -f /home/ubuntu/apps/DigbyLaret/shared/tmp/pids/puma.pid ] as ubuntu@35.183.131.50
+ DEBUG [829d12d6] Command: [ -f /home/ubuntu/apps/DigbyLaret/shared/tmp/pids/puma.pid ]
+ DEBUG [829d12d6] Finished in 0.193 seconds with exit status 1 (failed).
+ DEBUG [fa0052c7] Running [ -f /home/ubuntu/apps/DigbyLaret/shared/tmp/pids/puma.pid ] as ubuntu@35.183.131.50
+ DEBUG [fa0052c7] Command: [ -f /home/ubuntu/apps/DigbyLaret/shared/tmp/pids/puma.pid ]
+ DEBUG [fa0052c7] Finished in 0.149 seconds with exit status 1 (failed).
+ DEBUG [f1389c8f] Running if test ! -d /home/ubuntu/apps/DigbyLaret/current; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/current'" 1>&2; false; fi as ubuntu@35.183.131.50
+ DEBUG [f1389c8f] Command: if test ! -d /home/ubuntu/apps/DigbyLaret/current; then echo "Directory does not exist '/home/ubuntu/apps/DigbyLaret/current'" 1>&2; false; fi
+ DEBUG [f1389c8f] Finished in 0.192 seconds with exit status 0 (successful).
+  INFO [9aec56f9] Running RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle exec puma -C /home/ubuntu/apps/DigbyLaret/shared/puma.rb --daemon as ubuntu@35.183.131.50
+ DEBUG [9aec56f9] Command: cd /home/ubuntu/apps/DigbyLaret/current && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" RACK_ENV="development" ; RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.7.5 $HOME/.rbenv/bin/rbenv exec bundle exec puma -C /home/ubuntu/apps/DigbyLaret/shared/puma.rb --daemon )
+ DEBUG [9aec56f9] 	Puma starting in single mode...
+* Version 4.3.11 (ruby 2.7.5-p203), codename: Mysterious Traveller
+* Min threads: 0, max threads: 16
+* Environment: development
+* Daemonizing...
+  INFO [9aec56f9] Finished in 1.885 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-04-08 17:55:52 -0400 cap production puma:config
+  INFO ---------------------------------------------------------------------------
+ DEBUG [98ee5723] Running [ -d $HOME/.rbenv/versions/2.7.5 ] as ubuntu@35.183.131.50
+ DEBUG [98ee5723] Command: [ -d $HOME/.rbenv/versions/2.7.5 ]
+ DEBUG [98ee5723] Finished in 4.816 seconds with exit status 0 (successful).
+ DEBUG Uploading /home/ubuntu/apps/DigbyLaret/shared/puma.rb 0.0%
+  INFO Uploading /home/ubuntu/apps/DigbyLaret/shared/puma.rb 100.0%
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-04-08 17:56:36 -0400 cap production puma:nginx
+  INFO ---------------------------------------------------------------------------
+ DEBUG [6e794441] Running [ -d $HOME/.rbenv/versions/2.7.5 ] as ubuntu@35.183.131.50
+ DEBUG [6e794441] Command: [ -d $HOME/.rbenv/versions/2.7.5 ]
+ DEBUG [6e794441] Finished in 4.753 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-04-08 17:57:01 -0400 cap production puma:nginx
+  INFO ---------------------------------------------------------------------------
+ DEBUG [d0ce55f0] Running [ -d $HOME/.rbenv/versions/2.7.5 ] as ubuntu@35.183.131.50
+ DEBUG [d0ce55f0] Command: [ -d $HOME/.rbenv/versions/2.7.5 ]
+ DEBUG [d0ce55f0] Finished in 4.989 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-04-08 17:57:26 -0400 cap production puma:nginx_config
+  INFO ---------------------------------------------------------------------------
+ DEBUG [bf42cb3f] Running [ -d $HOME/.rbenv/versions/2.7.5 ] as ubuntu@35.183.131.50
+ DEBUG [bf42cb3f] Command: [ -d $HOME/.rbenv/versions/2.7.5 ]
+ DEBUG [bf42cb3f] Finished in 4.811 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/nginx_DigbyLaret_production 0.0%
+  INFO Uploading /tmp/nginx_DigbyLaret_production 100.0%
+  INFO [fc879267] Running /usr/bin/env sudo mv /tmp/nginx_DigbyLaret_production /etc/nginx/sites-available/DigbyLaret_production as ubuntu@35.183.131.50
+ DEBUG [fc879267] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env sudo mv /tmp/nginx_DigbyLaret_production /etc/nginx/sites-available/DigbyLaret_production )
+  INFO [fc879267] Finished in 0.212 seconds with exit status 0 (successful).
+  INFO [340f5ab1] Running /usr/bin/env sudo ln -fs /etc/nginx/sites-available/DigbyLaret_production /etc/nginx/sites-enabled/DigbyLaret_production as ubuntu@35.183.131.50
+ DEBUG [340f5ab1] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.5" ; /usr/bin/env sudo ln -fs /etc/nginx/sites-available/DigbyLaret_production /etc/nginx/sites-enabled/DigbyLaret_production )
+  INFO [340f5ab1] Finished in 0.160 seconds with exit status 0 (successful).

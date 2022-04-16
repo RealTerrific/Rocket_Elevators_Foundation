@@ -264,31 +264,31 @@
 							<form action="/intervention" method="post" class="text-center">
 								<fieldset id="fieldset1" oninput=CalculateElevatorsNeeded()>
 									<div class="text-center">
-                                        	<div id="customers">
+                                        	<div id="customers" class="col-md-12">
 												<label style="display: inline-block">Client</label>
-												<%=select_tag "customer", options_from_collection_for_select(Customer.all, "id", "company_name")%>
+												<%=select_tag "customer", options_from_collection_for_select(Customer.all, "id", "company_name"), :required => true, prompt: "Select" %>
 											</div>
-											<div id="buildings">
+											<div id="buildings" class="col-md-12">
 												<label style="display: inline-block">Building</label>
-												<%=select_tag "building", options_from_collection_for_select(Building.all, "id", "id")%>
+												<%=select_tag "building", options_from_collection_for_select(Building.all, "id", "id"), :required => true%>
 											</div>
-											<div id="batteries">
+											<div id="batteries" class="col-md-12">
 												<label style="display: inline-block">Battery</label>
-												<%=select_tag "battery", options_from_collection_for_select(Battery.all, "id", "id")%>
+												<%=select_tag "battery", options_from_collection_for_select(Battery.all, "id", "id"), :required => true%>
 											</div>
-											<div id="columns">
+											<div id="columns" class="col-md-12">
 												<label style="display: inline-block">Column</label>
 												<%=select_tag "column", options_from_collection_for_select(Column.all, "id", "id")%>
 											</div>
-											<div id="elevators">
+											<div id="elevators" class="col-md-12">
 												<label style="display: inline-block">Elevator</label>
 												<%=select_tag "elevator", options_from_collection_for_select(Elevator.all, "id", "id")%>
 											</div>
-											<div id="employees">
+											<div id="employees" class="col-md-12">
 												<label style="display: inline-block">Employee</label>
-												<%=select_tag "employee", options_from_collection_for_select(Employee.all, "id", "first_name"), prompt: "None"%>
+												<%=select_tag "employee", options_from_collection_for_select(Employee.all, "id", "first_name"), :required => true, prompt: "None"%>
 											</div>
-											<div class="col-md-6" style="display: inline-block" id="description" required>
+											<div class="col-md-12" style="display: inline-block" id="description" required>
 												<label for="description">Description</label>
 												<%= text_field_tag :desc, "", class: 'form-control', :required => true%>
 											</div>

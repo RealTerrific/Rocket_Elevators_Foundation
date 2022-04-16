@@ -33,4 +33,5 @@
 //= require smoothscroll
 //= require owl.carousel.min
 //= require intervention
+//= require quote
 //= require_tree .

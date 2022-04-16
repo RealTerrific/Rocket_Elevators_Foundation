@@ -1,24 +1,24 @@
-let numApartments = document.querySelector("#number-of-apartments");
-let numCompanies = document.querySelector("#number-of-companies");
-let numCorporations = document.querySelector("#number-of-corporations");
-let numFloors = document.querySelector("#number-of-floors");
-let numBasements = document.querySelector("#number-of-basements");
-let numParking = document.querySelector("#number-of-parking-spots");
-let numElevators = document.querySelector("#number-of-elevators");
-let maxOccupancy = document.querySelector("#maximum-occupancy");
-let busHours = document.querySelector("#business-hours");
-let buildingTypeSelector = document.querySelector("#building-type");
-let productLineSelector = document.querySelector('input[name="service_grade"]');
-const standardPrice = 7565;
-const premiumPrice = 12345;
-const exceliumPrice = 15400;
-const standardFee = .1;
-const premiumFee = .13;
-const exceliumFee = .16;
+var numApartments = document.querySelector("#number-of-apartments");
+var numCompanies = document.querySelector("#number-of-companies");
+var numCorporations = document.querySelector("#number-of-corporations");
+var numFloors = document.querySelector("#number-of-floors");
+var numBasements = document.querySelector("#number-of-basements");
+var numParking = document.querySelector("#number-of-parking-spots");
+var numElevators = document.querySelector("#number-of-elevators");
+var maxOccupancy = document.querySelector("#maximum-occupancy");
+var busHours = document.querySelector("#business-hours");
+var buildingTypeSelector = document.querySelector("#building-type");
+var productLineSelector = document.querySelector('input[name="service_grade"]');
+var standardPrice = 7565;
+var premiumPrice = 12345;
+var exceliumPrice = 15400;
+var standardFee = .1;
+var premiumFee = .13;
+var exceliumFee = .16;
 
 
 function HideAllElements(){
-//    for(let i = 5; i < 22; i++){
+//    for(var i = 5; i < 22; i++){
 //        fieldset1.getElementsByTagName("div")[i].style.display = "none"
 //    }
     numApartments.style.display = "none";
@@ -35,7 +35,7 @@ function HideAllElements(){
 HideAllElements();
 
 function ResetFields(){
-    for(let i = 0; i < fieldset1.getElementsByTagName("input").length; i++){
+    for(var i = 0; i < fieldset1.getElementsByTagName("input").length; i++){
         document.getElementsByTagName("input")[i].value = ""
     }
     document.querySelector("#required-elevators").value=""
@@ -74,7 +74,7 @@ function ShowHybridElements(){
 
 function LoadSelection(){
     HideAllElements()
-    let buildingVal = buildingTypeSelector.value
+    var buildingVal = buildingTypeSelector.value
     ResetFields()
     if (buildingVal === "residential"){
         ShowResidentialElements()
@@ -94,8 +94,8 @@ buildingTypeSelector.addEventListener("change", LoadSelection)
 //}
 
 function UnitPriceUpdate(){
-    let productLineVal = document.querySelector('input[name="service_grade"]:checked').value
-    let unitPriceBox = document.querySelector("#unit-price")
+    var productLineVal = document.querySelector('input[name="service_grade"]:checked').value
+    var unitPriceBox = document.querySelector("#unit-price")
     unitPriceBox.value = ""
     if (productLineVal === "standard"){
         unitPriceBox.value = standardPrice.toLocaleString("en-US", {style: 'currency', currency: 'USD'});
@@ -114,27 +114,27 @@ function ResidentialCagesNeeded(){
     if(numApartments.querySelector("input").value==="" || numFloors.querySelector("input").value===""){
         return;
     }
-    let totalApartments = numApartments.querySelector("input").value
-    let totalFloors = numFloors.querySelector("input").value
-    let aptsPerFloor = totalApartments / totalFloors
+    var totalApartments = numApartments.querySelector("input").value
+    var totalFloors = numFloors.querySelector("input").value
+    var aptsPerFloor = totalApartments / totalFloors
 //    console.log(aptsPerFloor)
-    let cagesApts = Math.ceil(aptsPerFloor / 6)
+    var cagesApts = Math.ceil(aptsPerFloor / 6)
 //    console.log(cagesApts)
-    let floorMultiplier = Math.ceil(parseInt(numFloors.querySelector("input").value) / 20)
+    var floorMultiplier = Math.ceil(parseInt(numFloors.querySelector("input").value) / 20)
 //    console.log(floorMultiplier)
     document.querySelector("#required-elevators").value = cagesApts * floorMultiplier
 };
 
 function CorporateHybridCagesNeeded(){
-    let totalFloors = parseInt(numFloors.querySelector("input").value) + parseInt(numBasements.querySelector("input").value)
+    var totalFloors = parseInt(numFloors.querySelector("input").value) + parseInt(numBasements.querySelector("input").value)
 //    console.log(totalFloors)
-    let totalOccupants = maxOccupancy.querySelector("input").value * totalFloors
+    var totalOccupants = maxOccupancy.querySelector("input").value * totalFloors
 //    console.log(totalOccupants)
-    let elevatorsRequired = Math.ceil(totalOccupants / 1000)
+    var elevatorsRequired = Math.ceil(totalOccupants / 1000)
 //    console.log(elevatorsRequired)
-    let columnsRequired = Math.ceil(totalFloors / 20)
+    var columnsRequired = Math.ceil(totalFloors / 20)
 //    console.log(columnsRequired)
-    let elevatorsPerColumn = Math.ceil(elevatorsRequired/columnsRequired)
+    var elevatorsPerColumn = Math.ceil(elevatorsRequired/columnsRequired)
 //    console.log(elevatorsPerColumn)
     if (isNaN(elevatorsPerColumn * columnsRequired)){
         document.querySelector("#required-elevators").value = "";
@@ -144,7 +144,7 @@ function CorporateHybridCagesNeeded(){
 };
 
 function CalculateElevatorsNeeded(){
-    let buildingVal = buildingTypeSelector.value
+    var buildingVal = buildingTypeSelector.value
     if (buildingVal === "residential"){
         ResidentialCagesNeeded()
     } else if (buildingVal === "commercial"){
@@ -161,16 +161,16 @@ function CalculateElevatorsNeeded(){
 }
 
 function CalculateCosts(){
-    let productLineVal = document.querySelector('input[name="service_grade"]:checked').value
-    let requiredNumOfElevators = document.querySelector("#required-elevators").value
-    let partsTotalCost = 0
-    let installationFee = 0
-    let totalCost = 0
-    let unitPrice = 0
-    let unitFee = 0
-    let partsTotalCostBox = document.querySelector("#parts-total-cost")
-    let installationFeeBox = document.querySelector("#installation-fee")
-    let totalCostBox = document.querySelector("#total-cost")
+    var productLineVal = document.querySelector('input[name="service_grade"]:checked').value
+    var requiredNumOfElevators = document.querySelector("#required-elevators").value
+    var partsTotalCost = 0
+    var installationFee = 0
+    var totalCost = 0
+    var unitPrice = 0
+    var unitFee = 0
+    var partsTotalCostBox = document.querySelector("#parts-total-cost")
+    var installationFeeBox = document.querySelector("#installation-fee")
+    var totalCostBox = document.querySelector("#total-cost")
     partsTotalCostBox.value = ""
     installationFeeBox.value = ""
     totalCostBox.value = ""

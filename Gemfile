@@ -109,7 +109,7 @@ gem 'twilio-ruby'
 
 gem 'slack-notifier', '~> 2.4'
 
-gem "freshdesk"
+gem 'freshdesk'
 
 gem 'invisible_captcha'
 

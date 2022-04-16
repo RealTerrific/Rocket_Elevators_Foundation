@@ -1,7 +1,7 @@
 $("#buildings").hide();
+$("#batteries").hide();
 $("#columns").hide();
 $("#elevators").hide();
-$("#batteries").hide();
 
 $(function() {
 
@@ -12,6 +12,9 @@ $(function() {
     }
     $("select#customer").change(function() {
      $("#buildings").show();
+     $("#columns").hide();
+    $("#elevators").hide();
+    $("#batteries").hide();
      var customer_id = $(this).val();
      if (customer_id == "") {
       $("select#building option").remove();
@@ -53,6 +56,8 @@ $(function() {
     }
     $("select#building").change(function() {
      $("#batteries").show();
+     $("#columns").hide();
+     $("#elevators").hide();
      var building_id = $(this).val();
      if (building_id == "") {
       $("select#battery option").remove();
@@ -94,6 +99,7 @@ $(function() {
     }
     $("select#battery").change(function() {
      $("#columns").show();
+    $("#elevators").hide();
      var battery_id = $(this).val();
      if (battery_id == "") {
       $("select#column option").remove();
